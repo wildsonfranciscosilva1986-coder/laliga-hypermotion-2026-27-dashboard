@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Build the standalone, self-contained LaLiga Hypermotion 2026/27 dashboard."""
 from pathlib import Path
-import csv,json
+import csv,json,re
 ROOT=Path(__file__).resolve().parent
 with (ROOT/'laliga2_2026_27_matches_official.csv').open(encoding='utf-8-sig',newline='') as f: matches=list(csv.DictReader(f))
 with (ROOT/'laliga2_2026_27_official_table_snapshot.csv').open(encoding='utf-8-sig',newline='') as f: official=list(csv.DictReader(f))
@@ -47,6 +47,9 @@ repls=[
 ("'Real Madrid'","'CD Castellón'"),
 ]
 for a,b in repls: html=html.replace(a,b)
+# Replace the source short-name map after league substitutions, so swapped sample-team defaults
+# cannot accidentally relabel this league's clubs (e.g. Almería as Barcelona).
+html=re.sub(r"const short=t=>\(\{.*?\}\[t\]\|\|t\);", "const short=t=>({'UD Almería':'Almería','CD Castellón':'Castellón','SD Eibar':'Eibar','Real Sporting':'Sporting','RCD Mallorca':'Mallorca','Real Oviedo':'Oviedo','CE Sabadell':'Sabadell','Girona FC':'Girona','Burgos CF':'Burgos','Granada CF':'Granada','Real Valladolid CF':'Valladolid','CD Tenerife':'Tenerife','Córdoba CF':'Córdoba','Celta Fortuna':'Celta Fortuna','CD Eldense':'Eldense','UD Las Palmas':'Las Palmas','CD Leganés':'Leganés','FC Andorra':'Andorra','R. Sociedad B':'Real Sociedad B','Cádiz CF':'Cádiz','AD Ceuta FC':'Ceuta','Albacete BP':'Albacete'}[t]||t);", html, count=1)
 # Rename default team selections and short names in JS; extend readable compact names.
 html=html.replace("const short=t=>({'Deportivo Alavés':'Alavés','RC Deportivo':'Deportivo','R. Racing Club':'Racing','RCD Espanyol de Barcelona':'Espanyol','Atlético de Madrid':'Atlético','CA Osasuna':'Osasuna','Málaga CF':'Málaga','FC Barcelona':'Barcelona','Real Betis':'Betis','Real Sociedad':'Real Sociedad','Villarreal CF':'Villarreal','Athletic Club':'Athletic','Celta':'Celta','Levante UD':'Levante','Getafe CF':'Getafe','Elche CF':'Elche','Valencia CF':'Valencia','Rayo Vallecano':'Rayo','Real Madrid':'Real Madrid','Sevilla FC':'Sevilla'}[t]||t);", "const short=t=>({'UD Almería':'Almería','CD Castellón':'Castellón','SD Eibar':'Eibar','Real Sporting':'Sporting','RCD Mallorca':'Mallorca','Real Oviedo':'Oviedo','CE Sabadell':'Sabadell','Girona FC':'Girona','Burgos CF':'Burgos','Granada CF':'Granada','Real Valladolid CF':'Valladolid','CD Tenerife':'Tenerife','Córdoba CF':'Córdoba','Celta Fortuna':'Celta Fortuna','CD Eldense':'Eldense','UD Las Palmas':'Las Palmas','CD Leganés':'Leganés','FC Andorra':'Andorra','R. Sociedad B':'Real Sociedad B','Cádiz CF':'Cádiz','AD Ceuta FC':'Ceuta','Albacete BP':'Albacete'}[t]||t);")
 html=html.replace("const zoneClass=z=>z==='Champions League'?'ucl':z==='Europa League'?'uel':z==='Conference League'?'uecl':z==='Descenso'?'down':'';\nconst zoneLabel=z=>z==='Champions League'?'Champions League':z==='Europa League'?'Europa League':z==='Conference League'?'Conference League':z==='Descenso'?'Rebaixamento':'';", "const zoneClass=z=>z==='Ascenso direto'?'direct':z==='Play-off de ascenso'?'playoff':z==='Rebaixamento'?'down':'';\nconst zoneLabel=z=>z||'';")
