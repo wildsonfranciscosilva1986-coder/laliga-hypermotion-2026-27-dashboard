@@ -1,0 +1,23 @@
+﻿position,team,short,played,won,drawn,lost,goals_for,goals_against,goal_difference,points,competition_zone
+1,UD Almería,ALM,5,5,0,0,13,3,10,15,Ascenso
+2,RCD Mallorca,MLL,5,4,0,1,10,2,8,12,Promoción ascenso
+3,CE Sabadell,SAB,4,3,1,0,7,3,4,10,
+4,SD Eibar,EIB,5,3,1,1,9,6,3,10,Promoción ascenso
+5,Burgos CF,BUR,5,3,1,1,9,6,3,10,
+6,Real Sporting,SPO,6,3,1,2,6,6,0,10,Promoción ascenso
+7,Real Valladolid CF,VLL,4,3,0,1,9,4,5,9,
+8,CD Castellón,CAS,4,2,2,0,8,1,7,8,Ascenso
+9,Girona FC,GIR,5,2,2,1,9,5,4,8,
+10,CD Eldense,ELD,5,2,2,1,9,6,3,8,
+11,Real Oviedo,OVI,5,2,2,1,5,2,3,8,Promoción ascenso
+12,CD Tenerife,TEN,5,2,2,1,5,3,2,8,
+13,Celta Fortuna,CEF,5,2,1,2,10,10,0,7,
+14,FC Andorra,AND,5,2,0,3,8,8,0,6,
+15,CD Leganés,LEG,4,2,0,2,4,5,-1,6,
+16,Córdoba CF,COR,4,2,0,2,6,8,-2,6,
+17,Cádiz CF,CAD,6,1,2,3,6,5,1,5,Descenso
+18,Granada CF,GRA,4,1,2,1,5,4,1,5,
+19,UD Las Palmas,LPA,5,1,2,2,5,8,-3,5,
+20,AD Ceuta FC,CEU,6,1,1,4,6,10,-4,4,Descenso
+21,R. Sociedad B,RSB,5,0,1,4,5,10,-5,1,Descenso
+22,Albacete BP,ALB,4,0,0,4,3,8,-5,0,Descenso

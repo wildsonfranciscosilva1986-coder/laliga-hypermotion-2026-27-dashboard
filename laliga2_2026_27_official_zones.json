@@ -1,0 +1,366 @@
+{
+  "source": "https://www.laliga.com/laliga-hypermotion/clasificacion",
+  "season": "2026/27",
+  "current_gameweek": {
+    "id": 10422,
+    "week": 10,
+    "name": "Jornada 10",
+    "shortname": "J10",
+    "date": "2026-10-18T00:00:00+00:00",
+    "highlight_note": "*Los partidos podrían sufrir modificaciones por lo que LALIGA recomienda verificar regularmente los horarios y fechas de los partidos a través de la web y de los canales oficiales de venta de entradas para estar debidamente informados de cualquier cambio que pudiera ocurrir. En caso de modificación, cancelación o suspensión de un partido por fuerza mayor o causas sobrevenidas ajenas a LALIGA que así lo justifiquen se informará a la mayor brevedad posible a través de los canales de comunicación de LALIGA."
+  },
+  "zone_colors": {
+    "overall": [
+      {
+        "competition": "Ascenso",
+        "color": "#ff4b44"
+      },
+      {
+        "competition": "Promoción ascenso",
+        "color": "#ff9692"
+      },
+      {
+        "competition": "Descenso",
+        "color": "#9b5cff"
+      }
+    ],
+    "home": [
+      {
+        "competition": "Ascenso",
+        "color": "#ff4b44"
+      },
+      {
+        "competition": "Promoción ascenso",
+        "color": "#ff9692"
+      },
+      {
+        "competition": "Descenso",
+        "color": "#9b5cff"
+      }
+    ],
+    "away": [
+      {
+        "competition": "Ascenso",
+        "color": "#ff4b44"
+      },
+      {
+        "competition": "Promoción ascenso",
+        "color": "#ff9692"
+      },
+      {
+        "competition": "Descenso",
+        "color": "#9b5cff"
+      }
+    ]
+  },
+  "official_zones": [
+    {
+      "position": 1,
+      "team": "UD Almería",
+      "short": "ALM",
+      "played": 10,
+      "won": 8,
+      "drawn": 0,
+      "lost": 2,
+      "goals_for": 20,
+      "goals_against": 7,
+      "goal_difference": 13,
+      "points": 24,
+      "competition_zone": "Ascenso"
+    },
+    {
+      "position": 2,
+      "team": "CD Castellón",
+      "short": "CAS",
+      "played": 10,
+      "won": 7,
+      "drawn": 2,
+      "lost": 1,
+      "goals_for": 18,
+      "goals_against": 4,
+      "goal_difference": 14,
+      "points": 23,
+      "competition_zone": "Ascenso"
+    },
+    {
+      "position": 3,
+      "team": "SD Eibar",
+      "short": "EIB",
+      "played": 10,
+      "won": 7,
+      "drawn": 1,
+      "lost": 2,
+      "goals_for": 20,
+      "goals_against": 11,
+      "goal_difference": 9,
+      "points": 22,
+      "competition_zone": "Promoción ascenso"
+    },
+    {
+      "position": 4,
+      "team": "Real Sporting",
+      "short": "SPO",
+      "played": 10,
+      "won": 6,
+      "drawn": 1,
+      "lost": 3,
+      "goals_for": 11,
+      "goals_against": 9,
+      "goal_difference": 2,
+      "points": 19,
+      "competition_zone": "Promoción ascenso"
+    },
+    {
+      "position": 5,
+      "team": "RCD Mallorca",
+      "short": "MLL",
+      "played": 10,
+      "won": 5,
+      "drawn": 3,
+      "lost": 2,
+      "goals_for": 12,
+      "goals_against": 5,
+      "goal_difference": 7,
+      "points": 18,
+      "competition_zone": "Promoción ascenso"
+    },
+    {
+      "position": 6,
+      "team": "Real Oviedo",
+      "short": "OVI",
+      "played": 10,
+      "won": 5,
+      "drawn": 2,
+      "lost": 3,
+      "goals_for": 13,
+      "goals_against": 10,
+      "goal_difference": 3,
+      "points": 17,
+      "competition_zone": "Promoción ascenso"
+    },
+    {
+      "position": 7,
+      "team": "CE Sabadell",
+      "short": "SAB",
+      "played": 9,
+      "won": 4,
+      "drawn": 4,
+      "lost": 1,
+      "goals_for": 10,
+      "goals_against": 7,
+      "goal_difference": 3,
+      "points": 16,
+      "competition_zone": ""
+    },
+    {
+      "position": 8,
+      "team": "Girona FC",
+      "short": "GIR",
+      "played": 9,
+      "won": 4,
+      "drawn": 3,
+      "lost": 2,
+      "goals_for": 15,
+      "goals_against": 9,
+      "goal_difference": 6,
+      "points": 15,
+      "competition_zone": ""
+    },
+    {
+      "position": 9,
+      "team": "Granada CF",
+      "short": "GRA",
+      "played": 10,
+      "won": 4,
+      "drawn": 3,
+      "lost": 3,
+      "goals_for": 14,
+      "goals_against": 13,
+      "goal_difference": 1,
+      "points": 15,
+      "competition_zone": ""
+    },
+    {
+      "position": 10,
+      "team": "Burgos CF",
+      "short": "BUR",
+      "played": 9,
+      "won": 4,
+      "drawn": 2,
+      "lost": 3,
+      "goals_for": 12,
+      "goals_against": 10,
+      "goal_difference": 2,
+      "points": 14,
+      "competition_zone": ""
+    },
+    {
+      "position": 11,
+      "team": "Real Valladolid CF",
+      "short": "VLL",
+      "played": 9,
+      "won": 3,
+      "drawn": 3,
+      "lost": 3,
+      "goals_for": 13,
+      "goals_against": 11,
+      "goal_difference": 2,
+      "points": 12,
+      "competition_zone": ""
+    },
+    {
+      "position": 12,
+      "team": "CD Tenerife",
+      "short": "TEN",
+      "played": 9,
+      "won": 3,
+      "drawn": 3,
+      "lost": 3,
+      "goals_for": 11,
+      "goals_against": 13,
+      "goal_difference": -2,
+      "points": 12,
+      "competition_zone": ""
+    },
+    {
+      "position": 13,
+      "team": "Córdoba CF",
+      "short": "COR",
+      "played": 10,
+      "won": 4,
+      "drawn": 0,
+      "lost": 6,
+      "goals_for": 15,
+      "goals_against": 20,
+      "goal_difference": -5,
+      "points": 12,
+      "competition_zone": ""
+    },
+    {
+      "position": 14,
+      "team": "Celta Fortuna",
+      "short": "CEF",
+      "played": 9,
+      "won": 3,
+      "drawn": 2,
+      "lost": 4,
+      "goals_for": 14,
+      "goals_against": 15,
+      "goal_difference": -1,
+      "points": 11,
+      "competition_zone": ""
+    },
+    {
+      "position": 15,
+      "team": "CD Eldense",
+      "short": "ELD",
+      "played": 9,
+      "won": 3,
+      "drawn": 2,
+      "lost": 4,
+      "goals_for": 10,
+      "goals_against": 11,
+      "goal_difference": -1,
+      "points": 11,
+      "competition_zone": ""
+    },
+    {
+      "position": 16,
+      "team": "UD Las Palmas",
+      "short": "LPA",
+      "played": 10,
+      "won": 3,
+      "drawn": 2,
+      "lost": 5,
+      "goals_for": 13,
+      "goals_against": 19,
+      "goal_difference": -6,
+      "points": 11,
+      "competition_zone": ""
+    },
+    {
+      "position": 17,
+      "team": "CD Leganés",
+      "short": "LEG",
+      "played": 10,
+      "won": 3,
+      "drawn": 2,
+      "lost": 5,
+      "goals_for": 6,
+      "goals_against": 15,
+      "goal_difference": -9,
+      "points": 11,
+      "competition_zone": ""
+    },
+    {
+      "position": 18,
+      "team": "FC Andorra",
+      "short": "AND",
+      "played": 9,
+      "won": 3,
+      "drawn": 1,
+      "lost": 5,
+      "goals_for": 13,
+      "goals_against": 15,
+      "goal_difference": -2,
+      "points": 10,
+      "competition_zone": ""
+    },
+    {
+      "position": 19,
+      "team": "Cádiz CF",
+      "short": "CAD",
+      "played": 10,
+      "won": 1,
+      "drawn": 5,
+      "lost": 4,
+      "goals_for": 11,
+      "goals_against": 11,
+      "goal_difference": 0,
+      "points": 8,
+      "competition_zone": "Descenso"
+    },
+    {
+      "position": 20,
+      "team": "R. Sociedad B",
+      "short": "RSB",
+      "played": 10,
+      "won": 2,
+      "drawn": 2,
+      "lost": 6,
+      "goals_for": 14,
+      "goals_against": 21,
+      "goal_difference": -7,
+      "points": 8,
+      "competition_zone": "Descenso"
+    },
+    {
+      "position": 21,
+      "team": "AD Ceuta FC",
+      "short": "CEU",
+      "played": 10,
+      "won": 1,
+      "drawn": 2,
+      "lost": 7,
+      "goals_for": 9,
+      "goals_against": 22,
+      "goal_difference": -13,
+      "points": 5,
+      "competition_zone": "Descenso"
+    },
+    {
+      "position": 22,
+      "team": "Albacete BP",
+      "short": "ALB",
+      "played": 10,
+      "won": 0,
+      "drawn": 1,
+      "lost": 9,
+      "goals_for": 6,
+      "goals_against": 22,
+      "goal_difference": -16,
+      "points": 1,
+      "competition_zone": "Descenso"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "competition": "LALIGA HYPERMOTION / Segunda División",
+  "season": "2026/27",
+  "official_calendar": {
+    "source": "https://www.laliga.com/laliga-hypermotion/calendario",
+    "clubs": 22,
+    "regular_season_matchdays": 42,
+    "fixtures": 462,
+    "per_club": {"home": 21, "away": 21}
+  },
+  "promotion_and_relegation": {
+    "direct_promotion_positions": [1, 2],
+    "promotion_playoff_positions": [3, 4, 5, 6],
+    "third_promotion_place": "Winner of the promotion play-off among positions 3–6.",
+    "relegation_positions": [19, 20, 21, 22],
+    "official_table_zones": "LALIGA standings page labels the active zone groups as Ascenso, Promoción ascenso and Descenso; current league table zones contain 2, 4 and 4 clubs, respectively.",
+    "official_sources": [
+      "https://www.laliga.com/laliga-hypermotion/clasificacion",
+      "https://www.laliga.com/noticias/quienes-juegan-el-play-off-de-ascenso",
+      "https://www.laliga.com/noticias/descensos-de-segunda-division"
+    ],
+    "note": "Positions 3–6 are explicitly stated by LALIGA as contesting the third promotion place. The official standings snapshots confirm the three current qualification/relegation zone group sizes; only the active zones are shown in the dashboard."
+  }
+}

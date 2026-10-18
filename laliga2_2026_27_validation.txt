@@ -1,0 +1,7 @@
+LALIGA HYPERMOTION 2026/27 validation — cutoff 2026-10-18 12:05 America/Sao_Paulo
+Official calendar: 462/462 fixtures; 42 matchdays × 11 fixtures; 22 clubs; each club plays 21 home and 21 away.
+Statuses: 105 confirmed final scores; 1 active fixture excluded; 356 future/unstarted; 0 abandoned.
+Independent ESPN: 105/105 finished scores match; ESPN's independently recomputed 22-club table matches the final-only table.
+Official standings reconciliation: 20/22 club vectors match exactly. The only differences are Cádiz CF, Granada CF, each explained exactly by the live Granada CF–Cádiz CF match: official live table has an extra 0–0 draw while the fixture is halftime and has no confirmed final. No live score enters this panel's calculations.
+Home/away tables and exact 22-team standings are in laliga2_2026_27_computed_all/home/away_table.csv.
+No kickoff times are invented: any missing official time stays blank / TBC.

@@ -1,0 +1,12 @@
+{
+  "source": "ESPN independent match scoreboard API",
+  "scoreboard_endpoint": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/scoreboard?dates=YYYYMMDD",
+  "finished_official_fixtures": 105,
+  "distinct_queried_UTC_dates": 57,
+  "ESPN_match_records_available": 105,
+  "matched_results": 105,
+  "mismatches": [],
+  "missing_fixtures": [],
+  "ESPN_table_recomputed_from_ESPN_final_scores": 22,
+  "note": "Result comparison requires ESPN to mark the event STATUS_FULL_TIME. Table above is independently recomputed from ESPN event scores, not copied from LALIGA."
+}

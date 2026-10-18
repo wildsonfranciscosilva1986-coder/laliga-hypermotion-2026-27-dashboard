@@ -1,0 +1,45 @@
+{
+  "competition": "LALIGA HYPERMOTION 2026/27 only",
+  "requested_cutoff": "2026-10-18 12:05:00 America/Sao_Paulo (BRT)",
+  "data_capture": "2026-10-18 12:13 America/Sao_Paulo",
+  "sources": [
+    {
+      "name": "LALIGA official HYPERMOTION calendar and results by jornada",
+      "url_pattern": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-{1..42}",
+      "use": "Official fixture IDs, pairings, Madrid-local date/kickoff, final status, scheduled/in-progress status; 462 fixture rows.",
+      "snapshot_file": "laliga2_2026_27_matches_official.csv"
+    },
+    {
+      "name": "LALIGA official HYPERMOTION overall/home/away classification",
+      "url": "https://www.laliga.com/laliga-hypermotion/clasificacion",
+      "use": "Current official table stats, positions and official qualification/relegation zone labels.",
+      "snapshot_files": ["laliga2_2026_27_official_table_snapshot.csv", "laliga2_2026_27_official_home_table_snapshot.csv", "laliga2_2026_27_official_away_table_snapshot.csv"]
+    },
+    {
+      "name": "LALIGA official play-off format explanation",
+      "url": "https://www.laliga.com/noticias/quienes-juegan-el-play-off-de-ascenso",
+      "use": "Positions 3–6 contest the third promotion place."
+    },
+    {
+      "name": "LALIGA official Segunda relegation announcement",
+      "url": "https://www.laliga.com/noticias/descensos-de-segunda-division",
+      "use": "Official end-of-season report confirms four relegated clubs after 42 jornadas."
+    },
+    {
+      "name": "ESPN independent scoreboard result cross-check",
+      "url_pattern": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/scoreboard?dates=YYYYMMDD",
+      "scoreboard_dates_queried": 57,
+      "finished_results_checked": 105,
+      "identical_final_scores": 105,
+      "missing_or_mismatched": 0,
+      "score_snapshot": "laliga2_2026_27_espn_result_crosscheck.csv",
+      "standings_recomputed_from_ESPN_finals": "espn_2026_27_standings_from_scores.csv"
+    }
+  ],
+  "score_policy": "Use only LALIGA status FullTime with both score fields present. Do not use or infer scores for in-progress/unstarted fixtures.",
+  "official_table_reconciliation": {
+    "full_stat_vector_matches": "20/22 clubs exact; the only two deltas are Granada CF and Cádiz CF.",
+    "explained_delta": "At capture, LALIGA's live standings reflected Granada CF–Cádiz CF as an extra 0–0 draw while the official fixture page said HalfTime. Final-only table excludes it: each club has +1 played, +1 draw and +1 point in the live official snapshot. All remaining W/L/GF/GA fields agree.",
+    "validation_report": "laliga2_2026_27_validation.json"
+  }
+}
