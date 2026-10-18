@@ -23,6 +23,17 @@ for t in clubs:
  assert set(int(r['round']) for r in home+away)==set(range(1,43)),t
 counts=Counter(r['status'] for r in fixtures)
 assert set(counts).issubset({'scheduled','finished','abandoned','postponed','cancelled','in_progress'}),counts
+finished=[r for r in fixtures if r['status']=='finished']
+assert len(finished)==counts['finished']
+overview={'clubs':len(clubs),'finished_fixtures':len(finished),'official_fixtures':len(fixtures),
+ 'total_goals':sum(int(r['home_goals'])+int(r['away_goals']) for r in finished),
+ 'btts':sum(int(r['home_goals'])>0 and int(r['away_goals'])>0 for r in finished),
+ 'over_2_5':sum(int(r['home_goals'])+int(r['away_goals'])>=3 for r in finished),
+ 'home_wins':sum(int(r['home_goals'])>int(r['away_goals']) for r in finished),
+ 'draws':sum(int(r['home_goals'])==int(r['away_goals']) for r in finished),
+ 'away_wins':sum(int(r['home_goals'])<int(r['away_goals']) for r in finished)}
+assert overview['home_wins']+overview['draws']+overview['away_wins']==len(finished)
+assert overview['total_goals']==sum(int(r['home_goals'])+int(r['away_goals']) for r in finished)
 stats={t:{'played':0,'won':0,'drawn':0,'lost':0,'goals_for':0,'goals_against':0,'points':0,'home_played':0,'away_played':0} for t in clubs}
 for m in fixtures:
  if m['status']=='finished':
@@ -81,6 +92,10 @@ for scope in ('all','home','away'):
  with (ROOT/f'laliga2_2026_27_computed_{scope}_table.csv').open('w',encoding='utf-8-sig',newline='') as f:
   w=csv.DictWriter(f,fieldnames=list(rows[0]));w.writeheader();w.writerows(sorted(rows,key=lambda x:(-x['points'],-x['goal_difference'],-x['goals_for'],x['team'])))
 report={'competition':'LALIGA HYPERMOTION / Segunda División 2026/27','cutoff':CUTOFF,
+ 'overview_kpis':{**overview,'average_goals_per_finished_match':round(overview['total_goals']/len(finished),4) if finished else None,
+  'btts_rate':round(overview['btts']/len(finished),4) if finished else None,
+  'over_2_5_rate':round(overview['over_2_5']/len(finished),4) if finished else None,
+  'live_matches_excluded':counts['in_progress']},
  'official_source_snapshot_retrieved':'2026-10-18 12:13 America/Sao_Paulo; final-result cutoff retained at 12:05 (no later final in active fixture; the 12:15 BRT Granada–Cádiz match was in progress)',
  'coverage':{'clubs':len(clubs),'matchdays':42,'official_fixture_slots':len(fixtures),'unique_official_match_ids':len({r['official_match_id'] for r in fixtures}),'fixture_status_counts':dict(counts),'confirmed_final_scores_used':counts['finished'],'live_matches_excluded':counts['in_progress'],'unpublished_kickoff_times':sum(not r['kickoff_local_madrid'] for r in fixtures)},
  'score_table_rule':'Only LALIGA status FullTime rows with both scores are used. Win=3 points, draw=1, loss=0. W-D-L, played, GF, GA, GD and points are recomputed per club; home and away records are calculated separately.',
@@ -89,6 +104,6 @@ report={'competition':'LALIGA HYPERMOTION / Segunda División 2026/27','cutoff':
  'rules':{'clubs':22,'regular_season_rounds':42,'direct_promotion':'positions 1–2 (official LALIGA table zone: Ascenso)','promotion_playoff':'positions 3–6 (official LALIGA table zone: Promoción ascenso; LALIGA official playoff explainer specifies the third/fourth/fifth/sixth placed teams contest the third promotion place)','relegation':'positions 19–22 (official LALIGA table zone: Descenso; 2025/26 official end-of-season announcement confirms four relegated clubs after 42 rounds)'},
  'data_limitations':['Live standings can temporarily include in-progress match states; this build intentionally uses only completed full-time results.','Some future match dates are published without a kickoff time; those remain time TBC and are not rendered as 01:00.','Current results are a small early-season sample; H2H only includes 2026/27 completed fixtures.','The 1-X-2 display is an uncalibrated descriptive independent-Poisson projection using only this season’s home and away goal averages; it does not account for lineups, injuries, opponent strength, or odds.']}
 (ROOT/'laliga2_2026_27_validation.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
-lines=[f"LALIGA HYPERMOTION 2026/27 validation — cutoff {CUTOFF}",f"Official calendar: {len(fixtures)}/462 fixtures; 42 matchdays × 11 fixtures; 22 clubs; each club plays 21 home and 21 away.",f"Statuses: {counts['finished']} confirmed final scores; {counts['in_progress']} active fixture excluded; {counts['scheduled']} future/unstarted; {counts.get('abandoned',0)} abandoned.",f"Independent ESPN: {len(espncheck)}/{counts['finished']} finished scores match; ESPN's independently recomputed 22-club table matches the final-only table.",f"Official standings reconciliation: {22-len(computed_diff)}/22 club vectors match exactly. The only differences are {', '.join(x['team'] for x in computed_diff)}, each explained exactly by the live Granada CF–Cádiz CF match: official live table has an extra 0–0 draw while the fixture is halftime and has no confirmed final. No live score enters this panel's calculations.","Home/away tables and exact 22-team standings are in laliga2_2026_27_computed_all/home/away_table.csv.","No kickoff times are invented: any missing official time stays blank / TBC."]
+lines=[f"LALIGA HYPERMOTION 2026/27 validation — cutoff {CUTOFF}",f"Official calendar: {len(fixtures)}/462 fixtures; 42 matchdays × 11 fixtures; 22 clubs; each club plays 21 home and 21 away.",f"Statuses: {counts['finished']} confirmed final scores; {counts['in_progress']} active fixture excluded; {counts['scheduled']} future/unstarted; {counts.get('abandoned',0)} abandoned.",f"Overview KPIs from finals only: {overview['total_goals']} goals ({overview['total_goals']/len(finished):.2f}/match); BTTS {overview['btts']}/{len(finished)} ({100*overview['btts']/len(finished):.1f}%); Over 2.5 {overview['over_2_5']}/{len(finished)} ({100*overview['over_2_5']/len(finished):.1f}%); home/draw/away {overview['home_wins']}/{overview['draws']}/{overview['away_wins']}.",f"Independent ESPN: {len(espncheck)}/{counts['finished']} finished scores match; ESPN's independently recomputed 22-club table matches the final-only table.",f"Official standings reconciliation: {22-len(computed_diff)}/22 club vectors match exactly. The only differences are {', '.join(x['team'] for x in computed_diff)}, each explained exactly by the live Granada CF–Cádiz CF match: official live table has an extra 0–0 draw while the fixture is halftime and has no confirmed final. No live score enters this panel's calculations.","Home/away tables and exact 22-team standings are in laliga2_2026_27_computed_all/home/away_table.csv.","No kickoff times are invented: any missing official time stays blank / TBC."]
 (ROOT/'laliga2_2026_27_validation.txt').write_text('\n'.join(lines)+'\n',encoding='utf-8')
 print('\n'.join(lines))

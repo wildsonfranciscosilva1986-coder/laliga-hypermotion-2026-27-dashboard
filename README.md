@@ -23,6 +23,7 @@ The official calendar has **22 clubs and 42 jornadas** (462 fixtures). Official 
 
 ## Included dashboard
 
+- Overview KPIs for 22 clubs, confirmed finals / 462 official fixtures, total goals and per-match average, BTTS and Over 2.5 numerator / denominator / rate, home wins / draws / away wins, next fixture, and the exact BRT cutoff. Every score-derived KPI excludes the live match.
 - League table, official promotion/play-off/relegation zones, W-D-L and GF/GA/GD, calculated solely from confirmed final results.
 - Club profiles: last five finished matches, total/home/away form, goal stats and next published fixture.
 - Interactive home/away selector with season H2H, 1-X-2 probabilities, expected goals, modal score, BTTS and over 2.5.

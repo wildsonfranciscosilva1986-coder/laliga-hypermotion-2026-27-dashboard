@@ -1,6 +1,21 @@
 {
   "competition": "LALIGA HYPERMOTION / Segunda División 2026/27",
   "cutoff": "2026-10-18 12:05 America/Sao_Paulo",
+  "overview_kpis": {
+    "clubs": 22,
+    "finished_fixtures": 105,
+    "official_fixtures": 462,
+    "total_goals": 280,
+    "btts": 53,
+    "over_2_5": 53,
+    "home_wins": 46,
+    "draws": 22,
+    "away_wins": 37,
+    "average_goals_per_finished_match": 2.6667,
+    "btts_rate": 0.5048,
+    "over_2_5_rate": 0.5048,
+    "live_matches_excluded": 1
+  },
   "official_source_snapshot_retrieved": "2026-10-18 12:13 America/Sao_Paulo; final-result cutoff retained at 12:05 (no later final in active fixture; the 12:15 BRT Granada–Cádiz match was in progress)",
   "coverage": {
     "clubs": 22,

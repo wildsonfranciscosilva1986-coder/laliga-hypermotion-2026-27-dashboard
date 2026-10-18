@@ -45,12 +45,23 @@ const initials=t=>short(t).replace(/[^A-Za-zÁÉÍÓÚáéíóú]/g,'').slice(0,
 const zoneClass=z=>z==='Champions League'?'ucl':z==='Europa League'?'uel':z==='Conference League'?'uecl':z==='Descenso'?'down':'';
 const zoneLabel=z=>z==='Champions League'?'Champions League':z==='Europa League'?'Europa League':z==='Conference League'?'Conference League':z==='Descenso'?'Rebaixamento':'';
 function renderSummary(){
- const next=FIX.filter(m=>m.status==='scheduled').sort(byDate)[0], leader=standings[0];
+ const next=FIX.filter(m=>m.status==='scheduled').sort(byDate)[0];
+ const totalGoals=FIN.reduce((n,m)=>n+Number(m.home_goals)+Number(m.away_goals),0);
+ const btts=FIN.filter(m=>Number(m.home_goals)>0&&Number(m.away_goals)>0).length;
+ const over25=FIN.filter(m=>Number(m.home_goals)+Number(m.away_goals)>=3).length;
+ const homeWins=FIN.filter(m=>Number(m.home_goals)>Number(m.away_goals)).length;
+ const draws=FIN.filter(m=>Number(m.home_goals)===Number(m.away_goals)).length;
+ const awayWins=FIN.filter(m=>Number(m.home_goals)<Number(m.away_goals)).length;
+ const pct=n=>FIN.length?`${(100*n/FIN.length).toFixed(1)}%`:'—';
  document.getElementById('heroFinished').textContent=FIN.length;
  document.getElementById('summaryCards').innerHTML=[
-  ['Líder',standings[0].team,`${standings[0].points} pontos · ${standings[0].won} vitórias`],
-  ['Jogos encerrados',FIN.length,'placares finais confirmados'],
-  ['Clubes',TEAMS.length,'LaLiga EA SPORTS · temporada 2026/27'],
+  ['Clubes',TEAMS.length,'LALIGA HYPERMOTION · temporada 2026/27'],
+  ['Jogos finais / calendário',`${FIN.length} / ${FIX.length}`,'placares confirmados / partidas oficiais · ao vivo excluído'],
+  ['Gols',totalGoals,`${FIN.length? (totalGoals/FIN.length).toFixed(2):'—'} por jogo · ${totalGoals} gols / ${FIN.length} jogos`],
+  ['Ambas marcam',`${btts} / ${FIN.length}`,`${pct(btts)} dos jogos finalizados`],
+  ['Mais de 2,5 gols',`${over25} / ${FIN.length}`,`${pct(over25)} dos jogos finalizados`],
+  ['Casa / empate / fora',`${homeWins} / ${draws} / ${awayWins}`,'vitórias em casa / empates / vitórias fora'],
+  ['Corte dos dados','18 out 2026','12:05 BRT · America/Sao_Paulo'],
   ['Próximo jogo',next?`${short(next.home_team)} × ${short(next.away_team)}`:'—',next?formatDate(next):'Sem jogo publicado']
  ].map(x=>`<article class="kpi"><div class="kpi-label">${x[0]}</div><div class="kpi-value">${x[1]}</div><div class="kpi-note">${x[2]}</div></article>`).join('');
  document.getElementById('tableTag').textContent=`${FIN.length} jogos finais · ${TEAMS.length} clubes`;
