@@ -6,16 +6,12 @@ Standalone, mobile-first, interactive dashboard for Spain's Segunda División (L
 
 - **Repository:** `wildsonfranciscosilva1986-coder/laliga-hypermotion-2026-27-dashboard`
 - **GitHub Pages:** `main` branch, repository root (`index.html`)
-- No cron/workflow was created. Public hosting is independent and authorized.
+- GitHub Actions performs the fail-closed daily refresh at 06:10 America/Sao_Paulo (09:10 UTC) and supports manual dispatch; commits and Pages redeploys retain this same URL.
 
 ## Snapshot and validation
 
-- **Final-results cutoff:** 19 October 2026, 08:08 BRT (`America/Sao_Paulo`).
-- Calendar: 462 official fixtures in 42 jornadas, 22 clubs, 21 home/21 away matches per club.
-- Results used: 109 confirmed LALIGA `FullTime` scores; 353 fixtures remain scheduled. There were no active games at this cutoff. No score is inferred.
-- All 109 LALIGA final scores match ESPN's independently published match scoreboard events. An independent table recomputed from ESPN `STATUS_FULL_TIME` results matches the final-only 22-club table.
-- The current official LALIGA table matches the score-derived table exactly for all 22 clubs across played, W-D-L, points, GF, GA and GD. The official fixture page and ESPN independently confirm all 109 finals; the Monday Celta Fortuna–Tenerife fixture remains scheduled and scoreless.
-- 209 future fixture entries have no officially published kickoff time. They display “horário a confirmar”; the source's midnight placeholder is not shown as an actual kickoff.
+The dashboard and validation files are regenerated with the exact cutoff and result counts at each successful run. The season calendar is 462 official fixtures in 42 jornadas, 22 clubs, 21 home/21 away matches per club. Only confirmed LALIGA `FullTime` scores are counted; live, postponed, abandoned and unstarted matches remain scoreless. Every final is cross-checked against ESPN `STATUS_FULL_TIME`, and both the official LALIGA table and the independently recomputed ESPN table must match the final-only table for all 22 clubs across played, W-D-L, points, GF, GA and GD. No score or kickoff is inferred.
+- Any future fixture without an officially published kickoff time displays “horário a confirmar”; the source's midnight placeholder is not treated as a kickoff.
 
 ## Verified competition format and zones
 
@@ -42,7 +38,7 @@ python3 -m pip install -r requirements.txt
 ./refresh_laliga2_2026_27.sh
 ```
 
-The refresh script fetches LALIGA's 42 official round pages and overall/home/away table snapshots, pulls ESPN results to cross-check final scores, validates and rebuilds the standalone page. A safe subsequent update must recapture the ESPN scoreboard snapshot and compare exact official/independent results and table vectors; retain all active and nonfinal fixtures scoreless. Upload/commit the changed artifacts to this repository's `main` root only after validation passes. GitHub Pages then serves the new `index.html`. **No scheduled job is configured in this repository.**
+The refresh script fetches LALIGA's 42 official round pages and overall/home/away table snapshots, pulls ESPN results to cross-check final scores, validates and rebuilds the standalone page. The GitHub Actions refresh runs daily at 06:10 America/Sao_Paulo (09:10 UTC), with a manual dispatch option. Each run refetches official fixtures/table and ESPN results, validates exact score and table agreement, rebuilds the page, and commits only after every check passes. Failed or mismatched runs do not publish. The workflow updates this repository in place, preserving the existing Pages URL.
 
 ## Project files
 
