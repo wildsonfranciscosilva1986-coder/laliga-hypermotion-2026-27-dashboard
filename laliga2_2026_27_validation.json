@@ -1,104 +1,46 @@
 {
   "competition": "LALIGA HYPERMOTION / Segunda División 2026/27",
-  "cutoff": "2026-10-18 12:05 America/Sao_Paulo",
+  "cutoff": "2026-10-19 08:08 America/Sao_Paulo",
   "overview_kpis": {
     "clubs": 22,
-    "finished_fixtures": 105,
+    "finished_fixtures": 109,
     "official_fixtures": 462,
-    "total_goals": 280,
-    "btts": 53,
-    "over_2_5": 53,
-    "home_wins": 46,
+    "total_goals": 290,
+    "btts": 54,
+    "over_2_5": 54,
+    "home_wins": 49,
     "draws": 22,
-    "away_wins": 37,
-    "average_goals_per_finished_match": 2.6667,
-    "btts_rate": 0.5048,
-    "over_2_5_rate": 0.5048,
-    "live_matches_excluded": 1
+    "away_wins": 38,
+    "average_goals_per_finished_match": 2.6606,
+    "btts_rate": 0.4954,
+    "over_2_5_rate": 0.4954,
+    "live_matches_excluded": 0
   },
-  "official_source_snapshot_retrieved": "2026-10-18 12:13 America/Sao_Paulo; final-result cutoff retained at 12:05 (no later final in active fixture; the 12:15 BRT Granada–Cádiz match was in progress)",
+  "official_source_snapshot_retrieved": "Current LALIGA official fixture and table snapshots retrieved at 2026-10-19 08:08 America/Sao_Paulo",
   "coverage": {
     "clubs": 22,
     "matchdays": 42,
     "official_fixture_slots": 462,
     "unique_official_match_ids": 462,
     "fixture_status_counts": {
-      "finished": 105,
-      "in_progress": 1,
-      "scheduled": 356
+      "finished": 109,
+      "scheduled": 353
     },
-    "confirmed_final_scores_used": 105,
-    "live_matches_excluded": 1,
+    "confirmed_final_scores_used": 109,
+    "live_matches_excluded": 0,
     "unpublished_kickoff_times": 209
   },
   "score_table_rule": "Only LALIGA status FullTime rows with both scores are used. Win=3 points, draw=1, loss=0. W-D-L, played, GF, GA, GD and points are recomputed per club; home and away records are calculated separately.",
   "official_table_reconciliation": {
-    "clubs_exactly_matching_all_fields": 20,
-    "clubs_with_live_table_delta": 2,
-    "differences": [
-      {
-        "team": "Cádiz CF",
-        "fields": [
-          "played",
-          "drawn",
-          "points"
-        ],
-        "final_only": {
-          "played": 9,
-          "won": 1,
-          "drawn": 4,
-          "lost": 4,
-          "goals_for": 11,
-          "goals_against": 11,
-          "points": 7,
-          "goal_difference": 0
-        },
-        "official_table_snapshot": {
-          "played": 10,
-          "won": 1,
-          "drawn": 5,
-          "lost": 4,
-          "goals_for": 11,
-          "goals_against": 11,
-          "points": 8,
-          "goal_difference": 0
-        }
-      },
-      {
-        "team": "Granada CF",
-        "fields": [
-          "played",
-          "drawn",
-          "points"
-        ],
-        "final_only": {
-          "played": 9,
-          "won": 4,
-          "drawn": 2,
-          "lost": 3,
-          "goals_for": 14,
-          "goals_against": 13,
-          "points": 14,
-          "goal_difference": 1
-        },
-        "official_table_snapshot": {
-          "played": 10,
-          "won": 4,
-          "drawn": 3,
-          "lost": 3,
-          "goals_for": 14,
-          "goals_against": 13,
-          "points": 15,
-          "goal_difference": 1
-        }
-      }
-    ],
-    "reconciliation": "LALIGA standings page was live-updated during Granada CF–Cádiz CF, which the official fixture page marked HalfTime and whose final scores are blank. The official live table had counted the active fixture as 0–0 (one extra played, draw and point for both clubs). The project excludes this non-final fixture as requested; all other 20 club vectors and the affected clubs’ GF/GA/win/loss totals match. The official table snapshot is preserved verbatim for audit."
+    "clubs_exactly_matching_all_fields": 22,
+    "clubs_with_live_table_delta": 0,
+    "differences": [],
+    "reconciliation": "Exact match: official table equals the final-only score-derived table; no active fixtures."
   },
   "independent_ESPN_crosscheck": {
-    "source": "ESPN independent scoreboard API, 57 UTC date queries across official final-result dates",
-    "official_final_results_checked": 105,
-    "identical_final_scores": 105,
+    "source": "ESPN independent scoreboard API, current official final-result dates",
+    "official_final_results_checked": 109,
+    "identical_final_scores": 109,
     "missing_or_different": 0,
     "independently_recomputed_ESPN_table_matches_final_only_table": 22
   },
