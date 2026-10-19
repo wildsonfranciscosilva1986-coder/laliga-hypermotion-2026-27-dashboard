@@ -1,0 +1,1554 @@
+{
+  "source": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-10",
+  "retrieved_at_brt": "2026-10-19T08:03:08.800759-03:00",
+  "matches": [
+    {
+      "id": 102734,
+      "name": "Temporada 2026/2027 - LALIGA HYPERMOTION - CD Leganés - Córdoba CF - 10",
+      "slug": "temporada-2026-2027-laliga-hypermotion-cd-leganes-cordoba-cf-10",
+      "date": "2026-10-16T18:30:00+00:00",
+      "time": "2026-10-16T18:30:00+00:00",
+      "hashtag": "LeganésCórdoba",
+      "home_score": 0,
+      "away_score": 1,
+      "status": "FullTime",
+      "home_team": {
+        "id": 54,
+        "slug": "cd-leganes",
+        "name": "Club Deportivo Leganés SAD",
+        "nickname": "CD Leganés",
+        "boundname": "CD Leganés",
+        "shortname": "LEG",
+        "sprite_status": "created",
+        "shield": {
+          "id": 225,
+          "url": "https://assets.laliga.com/assets/2019/06/07/medium/leganes.png"
+        },
+        "competitions": []
+      },
+      "away_team": {
+        "id": 25,
+        "slug": "cordoba-cf",
+        "name": "Córdoba Club de Fútbol",
+        "nickname": "Córdoba CF",
+        "boundname": "Córdoba CF",
+        "shortname": "COR",
+        "sprite_status": "created",
+        "shield": {
+          "id": 169,
+          "url": "https://assets.laliga.com/assets/2019/06/07/medium/cordoba.png"
+        },
+        "competitions": []
+      },
+      "venue": {
+        "name": "Estadio Ontime Butarque"
+      },
+      "persons_role": [
+        {
+          "person": {
+            "name": "Eder Mallo Fernández",
+            "nickname": "Eder Mallo Fernández",
+            "firstname": "Eder",
+            "lastname": "Mallo Fernández"
+          },
+          "role": {
+            "id": 5,
+            "name": "Árbitro Principal"
+          }
+        },
+        {
+          "person": {
+            "name": "Carlos Castell Orozco",
+            "nickname": "Carlos Castell Orozco",
+            "firstname": "Carlos",
+            "lastname": "Castell Orozco"
+          },
+          "role": {
+            "id": 8,
+            "name": "Cuarto Árbitro"
+          }
+        },
+        {
+          "person": {
+            "name": "José Antonio López Toca",
+            "nickname": "José Antonio López Toca",
+            "firstname": "José Antonio",
+            "lastname": "López Toca"
+          },
+          "role": {
+            "id": 9,
+            "name": "VAR"
+          }
+        },
+        {
+          "person": {
+            "name": "Javier Iglesias Villanueva",
+            "nickname": "Javier Iglesias Villanueva",
+            "firstname": "Javier",
+            "lastname": "Iglesias Villanueva"
+          },
+          "role": {
+            "id": 10,
+            "name": "AVAR"
+          }
+        },
+        {
+          "person": {
+            "name": "Ricardo Landrove Lago",
+            "nickname": "Landrove Lago",
+            "firstname": "Ricardo",
+            "lastname": "Landrove Lago"
+          },
+          "role": {
+            "id": 6,
+            "name": "Árbitro Asistente 1"
+          }
+        },
+        {
+          "person": {
+            "name": "Sergio Doval Gil",
+            "nickname": "Sergio Doval Gil",
+            "firstname": "Sergio",
+            "lastname": "Doval Gil"
+          },
+          "role": {
+            "id": 7,
+            "name": "Árbitro Asistente 2"
+          }
+        }
+      ],
+      "subscription": {
+        "id": 396,
+        "name": "LALIGA HYPERMOTION",
+        "slug": "laliga-hypermotion-2026",
+        "teams": [],
+        "rounds": []
+      },
+      "is_brand_day": false,
+      "temperature": {
+        "enabled_historical": false,
+        "enabled_forecast": false
+      },
+      "ball": {
+        "id": 31,
+        "name": "STELLAR NITRO ULTIMATE",
+        "image": "https://assets.laliga.com/ball/2627_ACCELERATE_1_BLANCO_1_B08_CAP.png"
+      },
+      "channels": [
+        {
+          "id": 76,
+          "name": "Orange Fútbol 2"
+        },
+        {
+          "id": 68,
+          "name": "LALIGA TV HYPERMOTION"
+        }
+      ]
+    },
+    {
+      "id": 102736,
+      "name": "Temporada 2026/2027 - LALIGA HYPERMOTION - R. Sociedad B - UD Almería - 10",
+      "slug": "temporada-2026-2027-laliga-hypermotion-r-sociedad-b-ud-almeria-10",
+      "date": "2026-10-17T12:00:00+00:00",
+      "time": "2026-10-17T12:00:00+00:00",
+      "hashtag": "RealSociedadBAlmería",
+      "home_score": 2,
+      "away_score": 4,
+      "status": "FullTime",
+      "home_team": {
+        "id": 482,
+        "slug": "r-sociedad-b",
+        "name": "R. Sociedad B",
+        "nickname": "R. Sociedad B",
+        "boundname": "R. Sociedad B",
+        "shortname": "RSB",
+        "sprite_status": "created",
+        "shield": {
+          "id": 739,
+          "url": "https://assets.laliga.com/assets/2019/06/07/medium/real-sociedad.png"
+        },
+        "competitions": []
+      },
+      "away_team": {
+        "id": 1,
+        "slug": "ud-almeria",
+        "name": "Unión Deportiva Almería SAD",
+        "nickname": "UD Almería",
+        "boundname": "UD Almería",
+        "shortname": "ALM",
+        "sprite_status": "created",
+        "shield": {
+          "id": 121,
+          "url": "https://assets.laliga.com/assets/2019/06/07/medium/almeria.png"
+        },
+        "competitions": []
+      },
+      "venue": {
+        "name": "Estadio Zubieta"
+      },
+      "persons_role": [
+        {
+          "person": {
+            "name": "Ojaos Valera",
+            "nickname": "Alejandro Ojaos Valera",
+            "firstname": "Ojaos",
+            "lastname": "Valera"
+          },
+          "role": {
+            "id": 5,
+            "name": "Árbitro Principal"
+          }
+        },
+        {
+          "person": {
+            "name": "Aleksandar Ivaylov Angelov",
+            "nickname": "Angelov Borisov",
+            "firstname": "Aleksandar",
+            "lastname": "Ivaylov Angelov"
+          },
+          "role": {
+            "id": 8,
+            "name": "Cuarto Árbitro"
+          }
+        },
+        {
+          "person": {
+            "name": "Valentín Pizarro Gómez",
+            "nickname": "Valentín Pizarro Gómez",
+            "firstname": "Valentín",
+            "lastname": "Pizarro Gómez"
+          },
+          "role": {
+            "id": 9,
+            "name": "VAR"
+          }
+        },
+        {
+          "person": {
+            "name": "Javier Iglesias Villanueva",
+            "nickname": "Javier Iglesias Villanueva",
+            "firstname": "Javier",
+            "lastname": "Iglesias Villanueva"
+          },
+          "role": {
+            "id": 10,
+            "name": "AVAR"
+          }
+        },
+        {
+          "person": {
+            "name": "Luis Miguel Marín Robles",
+            "nickname": "Luis Miguel Marín Robles",
+            "firstname": "Luis Miguel",
+            "lastname": "Marín Robles"
+          },
+          "role": {
+            "id": 6,
+            "name": "Árbitro Asistente 1"
+          }
+        },
+        {
+          "person": {
+            "name": "Pedro Campoy Candela",
+            "nickname": "Pedro Campoy Candela",
+            "firstname": "Pedro",
+            "lastname": "Campoy Candela"
+          },
+          "role": {
+            "id": 7,
+            "name": "Árbitro Asistente 2"
+          }
+        }
+      ],
+      "subscription": {
+        "id": 396,
+        "name": "LALIGA HYPERMOTION",
+        "slug": "laliga-hypermotion-2026",
+        "teams": [],
+        "rounds": []
+      },
+      "is_brand_day": false,
+      "temperature": {
+        "enabled_historical": false,
+        "enabled_forecast": false
+      },
+      "ball": {
+        "id": 31,
+        "name": "STELLAR NITRO ULTIMATE",
+        "image": "https://assets.laliga.com/ball/2627_ACCELERATE_1_BLANCO_1_B08_CAP.png"
+      },
+      "channels": [
+        {
+          "id": 68,
+          "name": "LALIGA TV HYPERMOTION"
+        }
+      ]
+    },
+    {
+      "id": 102731,
+      "name": "Temporada 2026/2027 - LALIGA HYPERMOTION - SD Eibar - RCD Mallorca - 10",
+      "slug": "temporada-2026-2027-laliga-hypermotion-sd-eibar-rcd-mallorca-10",
+      "date": "2026-10-17T14:15:00+00:00",
+      "time": "2026-10-17T14:15:00+00:00",
+      "hashtag": "EibarMallorca",
+      "home_score": 1,
+      "away_score": 1,
+      "status": "FullTime",
+      "home_team": {
+        "id": 27,
+        "slug": "sd-eibar",
+        "name": "Sociedad Deportiva Eibar SAD",
+        "nickname": "SD Eibar",
+        "boundname": "SD Eibar",
+        "shortname": "EIB",
+        "sprite_status": "created",
+        "shield": {
+          "id": 173,
+          "url": "https://assets.laliga.com/assets/2019/06/07/medium/eibar.png"
+        },
+        "competitions": []
+      },
+      "away_team": {
+        "id": 33,
+        "slug": "rcd-mallorca",
+        "name": "Real Club Deportivo Mallorca SAD",
+        "nickname": "RCD Mallorca",
+        "boundname": "RCD Mallorca",
+        "shortname": "MLL",
+        "sprite_status": "created",
+        "shield": {
+          "id": 679363,
+          "url": "https://assets.laliga.com/assets/2023/03/22/medium/013ae97735bc8e519dcf30f6826168ca.png"
+        },
+        "competitions": []
+      },
+      "venue": {
+        "name": "Municipal de Ipurua"
+      },
+      "persons_role": [
+        {
+          "person": {
+            "name": "Iosu Galech Apezteguía",
+            "nickname": "Iosu Galech Apezteguía",
+            "firstname": "Iosu",
+            "lastname": "Galech Apezteguía"
+          },
+          "role": {
+            "id": 5,
+            "name": "Árbitro Principal"
+          }
+        },
+        {
+          "person": {
+            "name": "Alejandro Tomé Alonso",
+            "nickname": "Alejandro Tomé Alonso",
+            "firstname": "Alejandro",
+            "lastname": "Tomé Alonso"
+          },
+          "role": {
+            "id": 8,
+            "name": "Cuarto Árbitro"
+          }
+        },
+        {
+          "person": {
+            "name": "Juan Luis Pulido Santana",
+            "nickname": "Juan Luis Pulido Santana",
+            "firstname": "Juan Luis",
+            "lastname": "Pulido Santana"
+          },
+          "role": {
+            "id": 9,
+            "name": "VAR"
+          }
+        },
+        {
+          "person": {
+            "name": "Daniel Jesús Trujillo Suárez",
+            "nickname": "Daniel Jesús Trujillo Suárez",
+            "firstname": "Daniel Jesús",
+            "lastname": "Trujillo Suárez"
+          },
+          "role": {
+            "id": 10,
+            "name": "AVAR"
+          }
+        },
+        {
+          "person": {
+            "name": "Marcos Barroso Galán",
+            "nickname": "Marcos Barroso Galán",
+            "firstname": "Marcos",
+            "lastname": "Barroso Galán"
+          },
+          "role": {
+            "id": 6,
+            "name": "Árbitro Asistente 1"
+          }
+        },
+        {
+          "person": {
+            "name": "David Pérez De Colosia",
+            "nickname": "David Pérez De Colosia Alonso",
+            "firstname": "David Pérez",
+            "lastname": "De Colosia"
+          },
+          "role": {
+            "id": 7,
+            "name": "Árbitro Asistente 2"
+          }
+        }
+      ],
+      "subscription": {
+        "id": 396,
+        "name": "LALIGA HYPERMOTION",
+        "slug": "laliga-hypermotion-2026",
+        "teams": [],
+        "rounds": []
+      },
+      "is_brand_day": false,
+      "temperature": {
+        "enabled_historical": false,
+        "enabled_forecast": false
+      },
+      "ball": {
+        "id": 31,
+        "name": "STELLAR NITRO ULTIMATE",
+        "image": "https://assets.laliga.com/ball/2627_ACCELERATE_1_BLANCO_1_B08_CAP.png"
+      },
+      "channels": [
+        {
+          "id": 77,
+          "name": "IB3"
+        },
+        {
+          "id": 38,
+          "name": "Replay"
+        },
+        {
+          "id": 68,
+          "name": "LALIGA TV HYPERMOTION"
+        }
+      ]
+    },
+    {
+      "id": 102737,
+      "name": "Temporada 2026/2027 - LALIGA HYPERMOTION - Real Sporting - Albacete BP - 10",
+      "slug": "temporada-2026-2027-laliga-hypermotion-real-sporting-albacete-bp-10",
+      "date": "2026-10-17T16:30:00+00:00",
+      "time": "2026-10-17T16:30:00+00:00",
+      "hashtag": "RealSportingAlbaceteBP",
+      "home_score": 2,
+      "away_score": 1,
+      "status": "FullTime",
+      "home_team": {
+        "id": 39,
+        "slug": "real-sporting",
+        "name": "Real Sporting de Gijón SAD",
+        "nickname": "Real Sporting",
+        "boundname": "Real Sporting",
+        "shortname": "SPO",
+        "sprite_status": "created",
+        "shield": {
+          "id": 197,
+          "url": "https://assets.laliga.com/assets/2019/06/07/medium/sporting.png"
+        },
+        "competitions": []
+      },
+      "away_team": {
+        "id": 47,
+        "slug": "albacete-bp",
+        "name": "Albacete Balompié SAD",
+        "nickname": "Albacete BP",
+        "boundname": "Albacete BP",
+        "shortname": "ALB",
+        "sprite_status": "created",
+        "shield": {
+          "id": 211,
+          "url": "https://assets.laliga.com/assets/2019/06/07/medium/albacete.png"
+        },
+        "competitions": []
+      },
+      "venue": {
+        "name": "El Molinón-Enrique Castro \"Quini\""
+      },
+      "persons_role": [
+        {
+          "person": {
+            "name": "Morilla Turrión",
+            "nickname": "Alejandro Morilla Turrión",
+            "firstname": "Morilla",
+            "lastname": "Turrión"
+          },
+          "role": {
+            "id": 5,
+            "name": "Árbitro Principal"
+          }
+        },
+        {
+          "person": {
+            "name": "Álvaro Rodriguez Recio",
+            "nickname": "Álvaro Rodriguez Recio",
+            "firstname": "Álvaro",
+            "lastname": "Rodriguez Recio"
+          },
+          "role": {
+            "id": 8,
+            "name": "Cuarto Árbitro"
+          }
+        },
+        {
+          "person": {
+            "name": "Guillermo Cuadra Fernández",
+            "nickname": "Guillermo Cuadra Fernández",
+            "firstname": "Guillermo",
+            "lastname": "Cuadra Fernández"
+          },
+          "role": {
+            "id": 9,
+            "name": "VAR"
+          }
+        },
+        {
+          "person": {
+            "name": "Javier Iglesias Villanueva",
+            "nickname": "Javier Iglesias Villanueva",
+            "firstname": "Javier",
+            "lastname": "Iglesias Villanueva"
+          },
+          "role": {
+            "id": 10,
+            "name": "AVAR"
+          }
+        },
+        {
+          "person": {
+            "name": "Alaiz Gutiérrez Martino",
+            "nickname": "Alaiz Gutiérrez Martino",
+            "firstname": "Alaiz",
+            "lastname": "Gutiérrez Martino"
+          },
+          "role": {
+            "id": 6,
+            "name": "Árbitro Asistente 1"
+          }
+        },
+        {
+          "person": {
+            "name": "David Monge González",
+            "nickname": "Monge González",
+            "firstname": "David",
+            "lastname": "Monge González"
+          },
+          "role": {
+            "id": 7,
+            "name": "Árbitro Asistente 2"
+          }
+        }
+      ],
+      "subscription": {
+        "id": 396,
+        "name": "LALIGA HYPERMOTION",
+        "slug": "laliga-hypermotion-2026",
+        "teams": [],
+        "rounds": []
+      },
+      "is_brand_day": false,
+      "temperature": {
+        "enabled_historical": false,
+        "enabled_forecast": false
+      },
+      "ball": {
+        "id": 31,
+        "name": "STELLAR NITRO ULTIMATE",
+        "image": "https://assets.laliga.com/ball/2627_ACCELERATE_1_BLANCO_1_B08_CAP.png"
+      },
+      "channels": [
+        {
+          "id": 68,
+          "name": "LALIGA TV HYPERMOTION"
+        }
+      ]
+    },
+    {
+      "id": 102735,
+      "name": "Temporada 2026/2027 - LALIGA HYPERMOTION - UD Las Palmas - CD Castellón - 10",
+      "slug": "temporada-2026-2027-laliga-hypermotion-ud-las-palmas-cd-castellon-10",
+      "date": "2026-10-17T19:00:00+00:00",
+      "time": "2026-10-17T19:00:00+00:00",
+      "hashtag": "LasPalmasCastellón",
+      "home_score": 0,
+      "away_score": 3,
+      "status": "FullTime",
+      "note": "*Horario peninsular",
+      "home_team": {
+        "id": 31,
+        "slug": "ud-las-palmas",
+        "name": "Unión Deportiva Las Palmas SAD",
+        "nickname": "UD Las Palmas",
+        "boundname": "UD Las Palmas",
+        "shortname": "LPA",
+        "sprite_status": "created",
+        "shield": {
+          "id": 181,
+          "url": "https://assets.laliga.com/assets/2019/06/07/medium/las-palmas.png"
+        },
+        "competitions": []
+      },
+      "away_team": {
+        "id": 158,
+        "slug": "cd-castellon",
+        "name": "CD Castellón",
+        "nickname": "CD Castellón",
+        "boundname": "CD Castellón",
+        "shortname": "CAS",
+        "sprite_status": "created",
+        "shield": {
+          "id": 405804,
+          "url": "https://assets.laliga.com/assets/2019/11/18/medium/0cb9fb4e471b8fe16fe9f6f193188505.png"
+        },
+        "competitions": []
+      },
+      "venue": {
+        "name": "Estadio Gran Canaria"
+      },
+      "persons_role": [
+        {
+          "person": {
+            "name": "Germán Cid Camacho",
+            "nickname": "Germán Cid Camacho",
+            "firstname": "Germán",
+            "lastname": "Cid Camacho"
+          },
+          "role": {
+            "id": 5,
+            "name": "Árbitro Principal"
+          }
+        },
+        {
+          "person": {
+            "name": "Lluís Balle Reus",
+            "nickname": "Lluís Balle Reus",
+            "firstname": "Lluís",
+            "lastname": "Balle Reus"
+          },
+          "role": {
+            "id": 8,
+            "name": "Cuarto Árbitro"
+          }
+        },
+        {
+          "person": {
+            "name": "Luis Mario Milla Alvendiz",
+            "nickname": "Luis Mario Milla Alvendiz",
+            "firstname": "Luis Mario",
+            "lastname": "Milla Alvendiz"
+          },
+          "role": {
+            "id": 9,
+            "name": "VAR"
+          }
+        },
+        {
+          "person": {
+            "name": "José Antonio López Toca",
+            "nickname": "José Antonio López Toca",
+            "firstname": "José Antonio",
+            "lastname": "López Toca"
+          },
+          "role": {
+            "id": 10,
+            "name": "AVAR"
+          }
+        },
+        {
+          "person": {
+            "name": "Daniel Pescador Hernández",
+            "nickname": "Daniel Pescador Hernández",
+            "firstname": "Daniel",
+            "lastname": "Pescador Hernández"
+          },
+          "role": {
+            "id": 6,
+            "name": "Árbitro Asistente 1"
+          }
+        },
+        {
+          "person": {
+            "name": "Josep Bordoy Homar",
+            "nickname": "Bordoy Homar",
+            "firstname": "Josep",
+            "lastname": "Bordoy Homar"
+          },
+          "role": {
+            "id": 7,
+            "name": "Árbitro Asistente 2"
+          }
+        }
+      ],
+      "subscription": {
+        "id": 396,
+        "name": "LALIGA HYPERMOTION",
+        "slug": "laliga-hypermotion-2026",
+        "teams": [],
+        "rounds": []
+      },
+      "is_brand_day": false,
+      "temperature": {
+        "enabled_historical": false,
+        "enabled_forecast": false
+      },
+      "ball": {
+        "id": 31,
+        "name": "STELLAR NITRO ULTIMATE",
+        "image": "https://assets.laliga.com/ball/2627_ACCELERATE_1_BLANCO_1_B08_CAP.png"
+      },
+      "channels": [
+        {
+          "id": 76,
+          "name": "Orange Fútbol 2"
+        },
+        {
+          "id": 68,
+          "name": "LALIGA TV HYPERMOTION"
+        }
+      ]
+    },
+    {
+      "id": 102730,
+      "name": "Temporada 2026/2027 - LALIGA HYPERMOTION - AD Ceuta FC - Real Oviedo - 10",
+      "slug": "temporada-2026-2027-laliga-hypermotion-ad-ceuta-fc-real-oviedo-10",
+      "date": "2026-10-18T12:00:00+00:00",
+      "time": "2026-10-18T12:00:00+00:00",
+      "hashtag": "ADCeutaFCRealOviedo",
+      "home_score": 1,
+      "away_score": 2,
+      "status": "FullTime",
+      "home_team": {
+        "id": 851,
+        "slug": "ad-ceuta-fc",
+        "name": "AD Ceuta FC",
+        "nickname": "AD Ceuta FC",
+        "boundname": "AD Ceuta FC",
+        "shortname": "CEU",
+        "sprite_status": "created",
+        "shield": {
+          "id": 405799,
+          "url": "https://assets.laliga.com/assets/2019/11/18/medium/dff48b7d706547a0c406464cb1ee9218.png"
+        },
+        "competitions": []
+      },
+      "away_team": {
+        "id": 157,
+        "slug": "real-oviedo",
+        "name": "Real Oviedo SAD",
+        "nickname": "Real Oviedo",
+        "boundname": "Real Oviedo",
+        "shortname": "OVI",
+        "sprite_status": "created",
+        "shield": {
+          "id": 407,
+          "url": "https://assets.laliga.com/assets/2019/06/07/medium/oviedo.png"
+        },
+        "competitions": []
+      },
+      "venue": {
+        "name": "Alfonso Murube"
+      },
+      "persons_role": [
+        {
+          "person": {
+            "name": "José Luis Guzmán Mansilla",
+            "nickname": "José Luis Guzmán Mansilla",
+            "firstname": "José Luis",
+            "lastname": "Guzmán Mansilla"
+          },
+          "role": {
+            "id": 5,
+            "name": "Árbitro Principal"
+          }
+        },
+        {
+          "person": {
+            "name": "Manuel Camacho Garrote",
+            "nickname": "Manuel Camacho Garrote",
+            "firstname": "Manuel",
+            "lastname": "Camacho Garrote"
+          },
+          "role": {
+            "id": 8,
+            "name": "Cuarto Árbitro"
+          }
+        },
+        {
+          "person": {
+            "name": "Javier Iglesias Villanueva",
+            "nickname": "Javier Iglesias Villanueva",
+            "firstname": "Javier",
+            "lastname": "Iglesias Villanueva"
+          },
+          "role": {
+            "id": 9,
+            "name": "VAR"
+          }
+        },
+        {
+          "person": {
+            "name": "Luis Mario Milla Alvendiz",
+            "nickname": "Luis Mario Milla Alvendiz",
+            "firstname": "Luis Mario",
+            "lastname": "Milla Alvendiz"
+          },
+          "role": {
+            "id": 10,
+            "name": "AVAR"
+          }
+        },
+        {
+          "person": {
+            "name": "Victor Jimenez Yustos",
+            "nickname": "Victor Jimenez Yustos",
+            "firstname": "Victor",
+            "lastname": "Jimenez Yustos"
+          },
+          "role": {
+            "id": 6,
+            "name": "Árbitro Asistente 1"
+          }
+        },
+        {
+          "person": {
+            "name": "Vicente Javier Almarche González",
+            "nickname": "Vicente Javier Almarche González",
+            "firstname": "Vicente Javier",
+            "lastname": "Almarche González"
+          },
+          "role": {
+            "id": 7,
+            "name": "Árbitro Asistente 2"
+          }
+        }
+      ],
+      "subscription": {
+        "id": 396,
+        "name": "LALIGA HYPERMOTION",
+        "slug": "laliga-hypermotion-2026",
+        "teams": [],
+        "rounds": []
+      },
+      "is_brand_day": false,
+      "temperature": {
+        "enabled_historical": false,
+        "enabled_forecast": false
+      },
+      "ball": {
+        "id": 31,
+        "name": "STELLAR NITRO ULTIMATE",
+        "image": "https://assets.laliga.com/ball/2627_ACCELERATE_1_BLANCO_1_B08_CAP.png"
+      },
+      "channels": [
+        {
+          "id": 68,
+          "name": "LALIGA TV HYPERMOTION"
+        }
+      ]
+    },
+    {
+      "id": 102733,
+      "name": "Temporada 2026/2027 - LALIGA HYPERMOTION - Granada CF - Cádiz CF - 10",
+      "slug": "temporada-2026-2027-laliga-hypermotion-granada-cf-cadiz-cf-10",
+      "date": "2026-10-18T14:15:00+00:00",
+      "time": "2026-10-18T14:15:00+00:00",
+      "hashtag": "GranadaCádiz",
+      "home_score": 2,
+      "away_score": 0,
+      "status": "FullTime",
+      "home_team": {
+        "id": 10,
+        "slug": "granada-cf",
+        "name": "Granada Club de Fútbol SAD",
+        "nickname": "Granada CF",
+        "boundname": "Granada CF",
+        "shortname": "GRA",
+        "sprite_status": "created",
+        "shield": {
+          "id": 660604,
+          "url": "https://assets.laliga.com/assets/2023/01/17/medium/f5db12f3a29fdfd14a0d50337016dc95.png"
+        },
+        "competitions": []
+      },
+      "away_team": {
+        "id": 162,
+        "slug": "cadiz-cf",
+        "name": "Cádiz Club de Fútbol SAD",
+        "nickname": "Cádiz CF",
+        "boundname": "Cádiz CF",
+        "shortname": "CAD",
+        "sprite_status": "created",
+        "shield": {
+          "id": 411,
+          "url": "https://assets.laliga.com/assets/2019/06/07/medium/cadiz.png"
+        },
+        "competitions": []
+      },
+      "venue": {
+        "name": "Nuevo Los Cármenes"
+      },
+      "persons_role": [
+        {
+          "person": {
+            "name": "Rafael Sánchez López",
+            "nickname": "Rafael Sánchez López",
+            "firstname": "Rafael",
+            "lastname": "Sánchez López"
+          },
+          "role": {
+            "id": 5,
+            "name": "Árbitro Principal"
+          }
+        },
+        {
+          "person": {
+            "name": "David López Jiménez",
+            "nickname": "David López Jiménez",
+            "firstname": "David",
+            "lastname": "López Jiménez"
+          },
+          "role": {
+            "id": 8,
+            "name": "Cuarto Árbitro"
+          }
+        },
+        {
+          "person": {
+            "name": "Jorge Figueroa Vázquez",
+            "nickname": "Jorge Figueroa Vázquez",
+            "firstname": "Jorge",
+            "lastname": "Figueroa Vázquez"
+          },
+          "role": {
+            "id": 9,
+            "name": "VAR"
+          }
+        },
+        {
+          "person": {
+            "name": "Guillermo Cuadra Fernández",
+            "nickname": "Guillermo Cuadra Fernández",
+            "firstname": "Guillermo",
+            "lastname": "Cuadra Fernández"
+          },
+          "role": {
+            "id": 10,
+            "name": "AVAR"
+          }
+        },
+        {
+          "person": {
+            "name": "Jesús Mira Garcia",
+            "nickname": "Jesús Mira Garcia",
+            "firstname": "Jesús",
+            "lastname": "Mira Garcia"
+          },
+          "role": {
+            "id": 6,
+            "name": "Árbitro Asistente 1"
+          }
+        },
+        {
+          "person": {
+            "name": "José Hernández García",
+            "nickname": "José Hernández García",
+            "firstname": "José",
+            "lastname": "Hernández García"
+          },
+          "role": {
+            "id": 7,
+            "name": "Árbitro Asistente 2"
+          }
+        }
+      ],
+      "subscription": {
+        "id": 396,
+        "name": "LALIGA HYPERMOTION",
+        "slug": "laliga-hypermotion-2026",
+        "teams": [],
+        "rounds": []
+      },
+      "is_brand_day": false,
+      "temperature": {
+        "enabled_historical": false,
+        "enabled_forecast": false
+      },
+      "ball": {
+        "id": 31,
+        "name": "STELLAR NITRO ULTIMATE",
+        "image": "https://assets.laliga.com/ball/2627_ACCELERATE_1_BLANCO_1_B08_CAP.png"
+      },
+      "channels": [
+        {
+          "id": 76,
+          "name": "Orange Fútbol 2"
+        },
+        {
+          "id": 68,
+          "name": "LALIGA TV HYPERMOTION"
+        }
+      ]
+    },
+    {
+      "id": 102732,
+      "name": "Temporada 2026/2027 - LALIGA HYPERMOTION - Girona FC - FC Andorra - 10",
+      "slug": "temporada-2026-2027-laliga-hypermotion-girona-fc-fc-andorra-10",
+      "date": "2026-10-18T16:30:00+00:00",
+      "time": "2026-10-18T16:30:00+00:00",
+      "hashtag": "GironaAndorra",
+      "home_score": 2,
+      "away_score": 0,
+      "status": "FullTime",
+      "home_team": {
+        "id": 28,
+        "slug": "girona-fc",
+        "name": "Girona Fútbol Club SAD",
+        "nickname": "Girona FC",
+        "boundname": "Girona FC",
+        "shortname": "GIR",
+        "sprite_status": "created",
+        "shield": {
+          "id": 618108,
+          "url": "https://assets.laliga.com/assets/2022/06/22/medium/8f43addbb29e4a72f5e90b6edfe4728f.png"
+        },
+        "competitions": []
+      },
+      "away_team": {
+        "id": 833,
+        "slug": "fc-andorra",
+        "name": "FC Andorra",
+        "nickname": "FC Andorra",
+        "boundname": "FC Andorra",
+        "shortname": "AND",
+        "sprite_status": "created",
+        "shield": {
+          "id": 618023,
+          "url": "https://assets.laliga.com/assets/2022/06/17/medium/33215c0212bcad95cc5d67b2b5a33fb8.png"
+        },
+        "competitions": []
+      },
+      "venue": {
+        "name": "Estadio Municipal de Montilivi"
+      },
+      "persons_role": [
+        {
+          "person": {
+            "name": "Dámaso Arcediano Monescillo",
+            "nickname": "Dámaso Arcediano Monescillo",
+            "firstname": "Dámaso",
+            "lastname": "Arcediano Monescillo"
+          },
+          "role": {
+            "id": 5,
+            "name": "Árbitro Principal"
+          }
+        },
+        {
+          "person": {
+            "name": "Gerard Rius Riu",
+            "nickname": "Gerard Rius",
+            "firstname": "Gerard",
+            "lastname": "Rius Riu"
+          },
+          "role": {
+            "id": 8,
+            "name": "Cuarto Árbitro"
+          }
+        },
+        {
+          "person": {
+            "name": "José Antonio López Toca",
+            "nickname": "José Antonio López Toca",
+            "firstname": "José Antonio",
+            "lastname": "López Toca"
+          },
+          "role": {
+            "id": 9,
+            "name": "VAR"
+          }
+        },
+        {
+          "person": {
+            "name": "Saúl Ais Reig",
+            "nickname": "Saúl Ais Reig",
+            "firstname": "Saúl",
+            "lastname": "Ais Reig"
+          },
+          "role": {
+            "id": 10,
+            "name": "AVAR"
+          }
+        },
+        {
+          "person": {
+            "name": "Christian Valverde Monsalve",
+            "nickname": "Valverde Monsalve",
+            "firstname": "Christian",
+            "lastname": "Valverde Monsalve"
+          },
+          "role": {
+            "id": 6,
+            "name": "Árbitro Asistente 1"
+          }
+        },
+        {
+          "person": {
+            "name": "Samuel Sanz Torcal",
+            "nickname": "Sanz Torcal Samuel",
+            "firstname": "Samuel",
+            "lastname": "Sanz Torcal"
+          },
+          "role": {
+            "id": 7,
+            "name": "Árbitro Asistente 2"
+          }
+        }
+      ],
+      "subscription": {
+        "id": 396,
+        "name": "LALIGA HYPERMOTION",
+        "slug": "laliga-hypermotion-2026",
+        "teams": [],
+        "rounds": []
+      },
+      "is_brand_day": false,
+      "temperature": {
+        "enabled_historical": false,
+        "enabled_forecast": false
+      },
+      "ball": {
+        "id": 31,
+        "name": "STELLAR NITRO ULTIMATE",
+        "image": "https://assets.laliga.com/ball/2627_ACCELERATE_1_BLANCO_1_B08_CAP.png"
+      },
+      "channels": [
+        {
+          "id": 68,
+          "name": "LALIGA TV HYPERMOTION"
+        }
+      ]
+    },
+    {
+      "id": 102738,
+      "name": "Temporada 2026/2027 - LALIGA HYPERMOTION - Real Valladolid CF - CD Eldense - 10",
+      "slug": "temporada-2026-2027-laliga-hypermotion-real-valladolid-cf-cd-eldense-10",
+      "date": "2026-10-18T16:30:00+00:00",
+      "time": "2026-10-18T16:30:00+00:00",
+      "hashtag": "RealValladolidEldense",
+      "home_score": 2,
+      "away_score": 3,
+      "status": "FullTime",
+      "home_team": {
+        "id": 19,
+        "slug": "r-valladolid-cf",
+        "name": "Real Valladolid Club de Fútbol SAD",
+        "nickname": "Real Valladolid CF",
+        "boundname": "Real Valladolid CF",
+        "shortname": "VLL",
+        "sprite_status": "created",
+        "shield": {
+          "id": 812971,
+          "url": "https://assets.laliga.com/assets/2024/06/17/medium/1467dcd5efb813a742d86f8eb39504a3.png"
+        },
+        "competitions": []
+      },
+      "away_team": {
+        "id": 962,
+        "slug": "eldense",
+        "name": "Club Deportivo Eldense",
+        "nickname": "CD Eldense",
+        "boundname": "CD Eldense",
+        "shortname": "ELD",
+        "sprite_status": "created",
+        "shield": {
+          "id": 727016,
+          "url": "https://assets.laliga.com/assets/2023/09/28/medium/58b0ce20fa615378dfe4d03ab2ce063e.png"
+        },
+        "competitions": []
+      },
+      "venue": {
+        "name": "Estadio Municipal José Zorrilla"
+      },
+      "persons_role": [
+        {
+          "person": {
+            "name": "José Antonio Sánchez Villalobos",
+            "nickname": "José Antonio Sánchez Villalobos",
+            "firstname": "José Antonio",
+            "lastname": "Sánchez Villalobos"
+          },
+          "role": {
+            "id": 5,
+            "name": "Árbitro Principal"
+          }
+        },
+        {
+          "person": {
+            "name": "Fernando Román Román",
+            "nickname": "Fernando Román Román",
+            "firstname": "Fernando",
+            "lastname": "Román Román"
+          },
+          "role": {
+            "id": 8,
+            "name": "Cuarto Árbitro"
+          }
+        },
+        {
+          "person": {
+            "name": "Luis Mario Milla Alvendiz",
+            "nickname": "Luis Mario Milla Alvendiz",
+            "firstname": "Luis Mario",
+            "lastname": "Milla Alvendiz"
+          },
+          "role": {
+            "id": 9,
+            "name": "VAR"
+          }
+        },
+        {
+          "person": {
+            "name": "David Gálvez Rascón",
+            "nickname": "David Gálvez Rascón",
+            "firstname": "David",
+            "lastname": "Gálvez Rascón"
+          },
+          "role": {
+            "id": 10,
+            "name": "AVAR"
+          }
+        },
+        {
+          "person": {
+            "name": "Ángel Munuera Montero",
+            "nickname": "Munuera Montero",
+            "firstname": "Ángel",
+            "lastname": "Munuera Montero"
+          },
+          "role": {
+            "id": 6,
+            "name": "Árbitro Asistente 1"
+          }
+        },
+        {
+          "person": {
+            "name": "Ángel Ramos Cinos",
+            "nickname": "Ángel Ramos Cinos",
+            "firstname": "Ángel",
+            "lastname": "Ramos Cinos"
+          },
+          "role": {
+            "id": 7,
+            "name": "Árbitro Asistente 2"
+          }
+        }
+      ],
+      "subscription": {
+        "id": 396,
+        "name": "LALIGA HYPERMOTION",
+        "slug": "laliga-hypermotion-2026",
+        "teams": [],
+        "rounds": []
+      },
+      "is_brand_day": false,
+      "temperature": {
+        "enabled_historical": false,
+        "enabled_forecast": false
+      },
+      "ball": {
+        "id": 31,
+        "name": "STELLAR NITRO ULTIMATE",
+        "image": "https://assets.laliga.com/ball/2627_ACCELERATE_1_BLANCO_1_B08_CAP.png"
+      },
+      "channels": [
+        {
+          "id": 68,
+          "name": "LALIGA TV HYPERMOTION"
+        }
+      ]
+    },
+    {
+      "id": 102728,
+      "name": "Temporada 2026/2027 - LALIGA HYPERMOTION - Burgos CF - CE Sabadell - 10",
+      "slug": "temporada-2026-2027-laliga-hypermotion-burgos-cf-ce-sabadell-10",
+      "date": "2026-10-18T19:00:00+00:00",
+      "time": "2026-10-18T19:00:00+00:00",
+      "hashtag": "BurgosCFSabadell",
+      "home_score": 1,
+      "away_score": 0,
+      "status": "FullTime",
+      "home_team": {
+        "id": 53,
+        "slug": "burgos",
+        "name": "Burgos CF",
+        "nickname": "Burgos CF",
+        "boundname": "Burgos CF",
+        "shortname": "BUR",
+        "sprite_status": "created",
+        "shield": {
+          "id": 535425,
+          "url": "https://assets.laliga.com/assets/2021/06/24/medium/8de24d38ab1472bbae1620d36582d7bd.png"
+        },
+        "competitions": []
+      },
+      "away_team": {
+        "id": 38,
+        "slug": "ce-sabadell",
+        "name": "Centre d’ Esports Sabadell Fútbol Club SAD",
+        "nickname": "CE Sabadell",
+        "boundname": "CE Sabadell",
+        "shortname": "SAB",
+        "sprite_status": "created",
+        "shield": {
+          "id": 195,
+          "url": "https://assets.laliga.com/assets/2019/06/07/medium/sabadell.png"
+        },
+        "competitions": []
+      },
+      "venue": {
+        "name": "El Plantío"
+      },
+      "persons_role": [
+        {
+          "person": {
+            "name": "Manuel Ángel Pérez Hernández",
+            "nickname": "Manuel Ángel Pérez Hernández",
+            "firstname": "Manuel Ángel",
+            "lastname": "Pérez Hernández"
+          },
+          "role": {
+            "id": 5,
+            "name": "Árbitro Principal"
+          }
+        },
+        {
+          "person": {
+            "name": "María Eugenia Gil Soriano",
+            "nickname": "María Eugenia Gil Soriano",
+            "firstname": "María Eugenia",
+            "lastname": "Gil Soriano"
+          },
+          "role": {
+            "id": 8,
+            "name": "Cuarto Árbitro"
+          }
+        },
+        {
+          "person": {
+            "name": "Juan Luis Pulido Santana",
+            "nickname": "Juan Luis Pulido Santana",
+            "firstname": "Juan Luis",
+            "lastname": "Pulido Santana"
+          },
+          "role": {
+            "id": 9,
+            "name": "VAR"
+          }
+        },
+        {
+          "person": {
+            "name": "Alejandro Muñiz Ruiz",
+            "nickname": "Alejandro Muñiz Ruiz",
+            "firstname": "Alejandro",
+            "lastname": "Muñiz Ruiz"
+          },
+          "role": {
+            "id": 10,
+            "name": "AVAR"
+          }
+        },
+        {
+          "person": {
+            "name": "Gonzalo López de la Llave",
+            "nickname": "López de la Llave",
+            "firstname": "Gonzalo",
+            "lastname": "López de la Llave"
+          },
+          "role": {
+            "id": 6,
+            "name": "Árbitro Asistente 1"
+          }
+        },
+        {
+          "person": {
+            "name": "Sergio Rebollo Merino",
+            "nickname": "Sergio Rebollo Merino",
+            "firstname": "Sergio",
+            "lastname": "Rebollo Merino"
+          },
+          "role": {
+            "id": 7,
+            "name": "Árbitro Asistente 2"
+          }
+        }
+      ],
+      "subscription": {
+        "id": 396,
+        "name": "LALIGA HYPERMOTION",
+        "slug": "laliga-hypermotion-2026",
+        "teams": [],
+        "rounds": []
+      },
+      "is_brand_day": false,
+      "temperature": {
+        "enabled_historical": false,
+        "enabled_forecast": false
+      },
+      "ball": {
+        "id": 31,
+        "name": "STELLAR NITRO ULTIMATE",
+        "image": "https://assets.laliga.com/ball/2627_ACCELERATE_1_BLANCO_1_B08_CAP.png"
+      },
+      "channels": [
+        {
+          "id": 68,
+          "name": "LALIGA TV HYPERMOTION"
+        }
+      ]
+    },
+    {
+      "id": 102729,
+      "name": "Temporada 2026/2027 - LALIGA HYPERMOTION - Celta Fortuna - CD Tenerife - 10",
+      "slug": "temporada-2026-2027-laliga-hypermotion-rc-celta-fortuna-cd-tenerife-10",
+      "date": "2026-10-19T18:30:00+00:00",
+      "time": "2026-10-19T18:30:00+00:00",
+      "hashtag": "CeltaFortunaTenerife",
+      "status": "PreMatch",
+      "home_team": {
+        "id": 481,
+        "slug": "rc-celta-b",
+        "name": "RC Celta Fortuna",
+        "nickname": "Celta Fortuna",
+        "boundname": "Celta Fortuna",
+        "shortname": "CEF",
+        "sprite_status": "created",
+        "shield": {
+          "id": 994891,
+          "url": "https://assets.laliga.com/assets/2026/06/25/medium/5c8f2e006573714fe5c8a7ef2a37122f.png"
+        },
+        "competitions": []
+      },
+      "away_team": {
+        "id": 40,
+        "slug": "cd-tenerife",
+        "name": "Club Deportivo Tenerife SAD",
+        "nickname": "CD Tenerife",
+        "boundname": "CD Tenerife",
+        "shortname": "TEN",
+        "sprite_status": "created",
+        "shield": {
+          "id": 995102,
+          "url": "https://assets.laliga.com/assets/2026/07/11/medium/58984797cc1fe6fdb08c0338719cd0e5.png"
+        },
+        "competitions": []
+      },
+      "venue": {
+        "name": "Estadio ABANCA Balaídos"
+      },
+      "persons_role": [
+        {
+          "person": {
+            "name": "Gonzalo Romero Freixas",
+            "nickname": "Gonzalo Romero Freixas",
+            "firstname": "Gonzalo",
+            "lastname": "Romero Freixas"
+          },
+          "role": {
+            "id": 5,
+            "name": "Árbitro Principal"
+          }
+        },
+        {
+          "person": {
+            "name": "Pol Arenas Mora",
+            "nickname": "Pol Arenas Mora",
+            "firstname": "Pol",
+            "lastname": "Arenas Mora"
+          },
+          "role": {
+            "id": 8,
+            "name": "Cuarto Árbitro"
+          }
+        },
+        {
+          "person": {
+            "name": "Rubén Ávalos Barrera",
+            "nickname": "Rubén Ávalos Barrera",
+            "firstname": "Rubén",
+            "lastname": "Ávalos Barrera"
+          },
+          "role": {
+            "id": 9,
+            "name": "VAR"
+          }
+        },
+        {
+          "person": {
+            "name": "Saúl Ais Reig",
+            "nickname": "Saúl Ais Reig",
+            "firstname": "Saúl",
+            "lastname": "Ais Reig"
+          },
+          "role": {
+            "id": 10,
+            "name": "AVAR"
+          }
+        },
+        {
+          "person": {
+            "name": "Josep Antoni Vigo Gatius",
+            "nickname": "Vigo Gatius",
+            "firstname": "Josep Antoni",
+            "lastname": "Vigo Gatius"
+          },
+          "role": {
+            "id": 6,
+            "name": "Árbitro Asistente 1"
+          }
+        },
+        {
+          "person": {
+            "name": "Alvaro Sanz Garcia",
+            "nickname": "Sanz Garcia",
+            "firstname": "Alvaro",
+            "lastname": "Sanz Garcia"
+          },
+          "role": {
+            "id": 7,
+            "name": "Árbitro Asistente 2"
+          }
+        }
+      ],
+      "subscription": {
+        "id": 396,
+        "name": "LALIGA HYPERMOTION",
+        "slug": "laliga-hypermotion-2026",
+        "teams": [],
+        "rounds": []
+      },
+      "is_brand_day": false,
+      "temperature": {
+        "enabled_historical": false,
+        "enabled_forecast": false
+      },
+      "ball": {
+        "id": 31,
+        "name": "STELLAR NITRO ULTIMATE",
+        "image": "https://assets.laliga.com/ball/2627_ACCELERATE_1_BLANCO_1_B08_CAP.png"
+      },
+      "channels": [
+        {
+          "id": 68,
+          "name": "LALIGA TV HYPERMOTION"
+        }
+      ]
+    }
+  ]
+}
