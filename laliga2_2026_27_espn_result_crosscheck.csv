@@ -104,3 +104,7 @@
 102737,10,2026-10-17,Real Sporting,2,2,Albacete BP,1,1,STATUS_FULL_TIME,True,401883155,https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/scoreboard?dates=20261017
 102735,10,2026-10-17,UD Las Palmas,0,0,CD Castellón,3,3,STATUS_FULL_TIME,True,401883157,https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/scoreboard?dates=20261017
 102730,10,2026-10-18,AD Ceuta FC,1,1,Real Oviedo,2,2,STATUS_FULL_TIME,True,401883179,https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/scoreboard?dates=20261018
+102733,10,2026-10-18,Granada CF,2,2,Cádiz CF,0,0,STATUS_FULL_TIME,True,401883156,https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/scoreboard?dates=20261018
+102732,10,2026-10-18,Girona FC,2,2,FC Andorra,0,0,STATUS_FULL_TIME,True,401883177,https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/scoreboard?dates=20261018
+102738,10,2026-10-18,Real Valladolid CF,2,2,CD Eldense,3,3,STATUS_FULL_TIME,True,401883154,https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/scoreboard?dates=20261018
+102728,10,2026-10-18,Burgos CF,1,1,CE Sabadell,0,0,STATUS_FULL_TIME,True,401883180,https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/scoreboard?dates=20261018
