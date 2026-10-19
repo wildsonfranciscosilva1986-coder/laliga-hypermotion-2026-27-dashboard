@@ -75,6 +75,22 @@ template=template.replace('LaLiga EA SPORTS','LALIGA HYPERMOTION')
 # Remove the old source table's first-division European qualification copy, already rewritten above.
 # Dataset injection.
 page=template.replace('__DATA__',jsdata)
-# Data-driven current result count text stays in header via JS. Use direct static explanatory label.
+# Keep the displayed cutoff and source notes synchronized with each validated refresh.
+validation=json.loads((ROOT/'laliga2_2026_27_validation.json').read_text(encoding='utf-8'))
+cutoff=validation['cutoff']
+datepart,timepart,*_=cutoff.split()
+year,month,day=datepart.split('-')
+months=['jan','fev','mar','abr','mai','jun','jul','ago','set','out','nov','dez']
+cutoff_label=f'{int(day)} {months[int(month)-1]} {year} · {timepart} BRT'
+finished_count=sum(m['status']=='finished' and m['home_goals']!='' and m['away_goals']!='' for m in matches)
+page=page.replace('Corte: <b>18 out 2026 · 12:05 BRT</b>',f'Corte: <b>{cutoff_label}</b>')
+page=page.replace("['Corte dos dados','18 out 2026','12:05 BRT · America/Sao_Paulo'],",f"['Corte dos dados','{int(day)} {months[int(month)-1]} {year}','{timepart} BRT · America/Sao_Paulo'],")
+page=page.replace('105 resultados oficiais encerrados',f'{finished_count} resultados oficiais encerrados')
+page=page.replace('105 jogos com placar final verificado',f'{finished_count} jogos com placar final verificado')
+page=page.replace('Snapshot do 18/10/2026; apenas FullTime entra nos cálculos.',f'Atualizado em {cutoff}; apenas partidas FullTime entram nos cálculos.')
+page=page.replace('Granada CF–Cádiz CF (jornada 10) estava em andamento no corte; é exibido sem placar e não entra nas contas. A tabela ao vivo da LALIGA já contabilizava provisoriamente o jogo como empate 0–0: por isso, Granada e Cádiz aparecem com +1 PJ, +1 empate e +1 ponto cada na snapshot oficial face à tabela final-only.', 'Partidas ao vivo, adiadas ou sem status FullTime aparecem sem placar e ficam fora dos cálculos até a confirmação oficial.')
+page=page.replace('O jogo ao vivo Granada–Cádiz não é contado como resultado final.', 'Jogos sem status FullTime não são contados como resultados finais.')
+page=page.replace('Corte solicitado: 18/10/2026 às 12:05 no fuso America/Sao_Paulo; snapshot oficial recuperado às 12:13 BRT. Sem novo placar final após o corte.',f'Corte validado: {cutoff}; partidas ainda não finalizadas permanecem fora da tabela e das métricas.')
 (ROOT/'index.html').write_text(page,encoding='utf-8')
+print(f'Built {ROOT/"index.html"} ({len(page):,} bytes), {len(matches)} fixtures, {finished_count} finals, cutoff {cutoff}')
 print(f'Built {ROOT/"index.html"} ({len(page):,} bytes), {len(matches)} fixtures / {len(data["teams"])} clubs')
