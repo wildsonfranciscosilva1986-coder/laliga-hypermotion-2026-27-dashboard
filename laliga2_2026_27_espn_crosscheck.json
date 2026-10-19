@@ -1,10 +1,10 @@
 {
   "source": "ESPN independent match scoreboard API",
   "scoreboard_endpoint": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/scoreboard?dates=YYYYMMDD",
-  "finished_official_fixtures": 105,
+  "finished_official_fixtures": 109,
   "distinct_queried_UTC_dates": 57,
-  "ESPN_match_records_available": 105,
-  "matched_results": 105,
+  "ESPN_match_records_available": 109,
+  "matched_results": 109,
   "mismatches": [],
   "missing_fixtures": [],
   "ESPN_table_recomputed_from_ESPN_final_scores": 22,
