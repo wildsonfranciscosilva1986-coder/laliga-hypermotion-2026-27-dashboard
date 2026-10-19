@@ -1,4 +1,4 @@
-LALIGA HYPERMOTION 2026/27 validation — cutoff 2026-10-19 10:19 America/Sao_Paulo
+LALIGA HYPERMOTION 2026/27 validation — cutoff 2026-10-19 10:22 America/Sao_Paulo
 Official calendar: 462/462 fixtures; 42 matchdays × 11 fixtures; 22 clubs; each club plays 21 home and 21 away.
 Statuses: 109 confirmed final scores; 0 active fixture excluded; 353 future/unstarted; 0 abandoned.
 Overview KPIs from finals only: 290 goals (2.66/match); BTTS 54/109 (49.5%); Over 2.5 54/109 (49.5%); home/draw/away 49/22/38.
