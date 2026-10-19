@@ -10,11 +10,11 @@ Standalone, mobile-first, interactive dashboard for Spain's Segunda División (L
 
 ## Snapshot and validation
 
-- **Final-results cutoff:** 18 October 2026, 12:05 BRT (`America/Sao_Paulo`).
+- **Final-results cutoff:** 19 October 2026, 08:08 BRT (`America/Sao_Paulo`).
 - Calendar: 462 official fixtures in 42 jornadas, 22 clubs, 21 home/21 away matches per club.
-- Results used: 105 confirmed LALIGA `FullTime` scores. One active Granada CF–Cádiz CF fixture is shown without a score and excluded from every count/model; 356 future fixtures are retained. No score is inferred.
-- All 105 LALIGA final scores match ESPN's independently published match scoreboard events. An independent table recomputed from ESPN `STATUS_FULL_TIME` results matches the final-only 22-club table.
-- LALIGA's live overall table snapshot includes Granada–Cádiz while it was in progress as an extra 0–0 draw. Thus 20/22 team rows match the official table exactly; the only differences are the expected extra played/draw/point for Granada and Cádiz in the live table. The official fixture page was halftime with no confirmed final. The final-only dashboard deliberately does not count the live match. Raw official standings snapshots, ESPN cross-check rows and comparison details are retained.
+- Results used: 109 confirmed LALIGA `FullTime` scores; 353 fixtures remain scheduled. There were no active games at this cutoff. No score is inferred.
+- All 109 LALIGA final scores match ESPN's independently published match scoreboard events. An independent table recomputed from ESPN `STATUS_FULL_TIME` results matches the final-only 22-club table.
+- The current official LALIGA table matches the score-derived table exactly for all 22 clubs across played, W-D-L, points, GF, GA and GD. The official fixture page and ESPN independently confirm all 109 finals; the Monday Celta Fortuna–Tenerife fixture remains scheduled and scoreless.
 - 209 future fixture entries have no officially published kickoff time. They display “horário a confirmar”; the source's midnight placeholder is not shown as an actual kickoff.
 
 ## Verified competition format and zones
@@ -23,7 +23,7 @@ The official calendar has **22 clubs and 42 jornadas** (462 fixtures). Official 
 
 ## Included dashboard
 
-- Overview KPIs for 22 clubs, confirmed finals / 462 official fixtures, total goals and per-match average, BTTS and Over 2.5 numerator / denominator / rate, home wins / draws / away wins, next fixture, and the exact BRT cutoff. Every score-derived KPI excludes the live match.
+- Overview KPIs for 22 clubs, confirmed finals / 462 official fixtures, total goals and per-match average, BTTS and Over 2.5 numerator / denominator / rate, home wins / draws / away wins, next fixture, and the exact BRT cutoff. Only confirmed final scores enter score-derived KPIs.
 - League table, official promotion/play-off/relegation zones, W-D-L and GF/GA/GD, calculated solely from confirmed final results.
 - Club profiles: last five finished matches, total/home/away form, goal stats and next published fixture.
 - Interactive home/away selector with season H2H, 1-X-2 probabilities, expected goals, modal score, BTTS and over 2.5.
