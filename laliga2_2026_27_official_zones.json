@@ -210,6 +210,20 @@
     },
     {
       "position": 12,
+      "team": "CD Tenerife",
+      "short": "TEN",
+      "played": 10,
+      "won": 3,
+      "drawn": 4,
+      "lost": 3,
+      "goals_for": 12,
+      "goals_against": 14,
+      "goal_difference": -2,
+      "points": 13,
+      "competition_zone": ""
+    },
+    {
+      "position": 13,
       "team": "Real Valladolid CF",
       "short": "VLL",
       "played": 10,
@@ -223,21 +237,21 @@
       "competition_zone": ""
     },
     {
-      "position": 13,
-      "team": "CD Tenerife",
-      "short": "TEN",
-      "played": 9,
+      "position": 14,
+      "team": "Celta Fortuna",
+      "short": "CEF",
+      "played": 10,
       "won": 3,
       "drawn": 3,
-      "lost": 3,
-      "goals_for": 11,
-      "goals_against": 13,
-      "goal_difference": -2,
+      "lost": 4,
+      "goals_for": 15,
+      "goals_against": 16,
+      "goal_difference": -1,
       "points": 12,
       "competition_zone": ""
     },
     {
-      "position": 14,
+      "position": 15,
       "team": "Córdoba CF",
       "short": "COR",
       "played": 10,
@@ -248,20 +262,6 @@
       "goals_against": 20,
       "goal_difference": -5,
       "points": 12,
-      "competition_zone": ""
-    },
-    {
-      "position": 15,
-      "team": "Celta Fortuna",
-      "short": "CEF",
-      "played": 9,
-      "won": 3,
-      "drawn": 2,
-      "lost": 4,
-      "goals_for": 14,
-      "goals_against": 15,
-      "goal_difference": -1,
-      "points": 11,
       "competition_zone": ""
     },
     {
