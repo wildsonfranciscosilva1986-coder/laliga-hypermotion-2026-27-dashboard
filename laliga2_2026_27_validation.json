@@ -1,6 +1,6 @@
 {
   "competition": "LALIGA HYPERMOTION / Segunda División 2026/27",
-  "cutoff": "2026-10-21 11:27 America/Sao_Paulo",
+  "cutoff": "2026-10-22 11:29 America/Sao_Paulo",
   "overview_kpis": {
     "clubs": 22,
     "finished_fixtures": 110,
@@ -16,7 +16,7 @@
     "over_2_5_rate": 0.4909,
     "live_matches_excluded": 0
   },
-  "official_source_snapshot_retrieved": "Current LALIGA official fixture and table snapshots retrieved at 2026-10-21 11:27 America/Sao_Paulo",
+  "official_source_snapshot_retrieved": "Current LALIGA official fixture and table snapshots retrieved at 2026-10-22 11:29 America/Sao_Paulo",
   "coverage": {
     "clubs": 22,
     "matchdays": 42,
