@@ -1,23 +1,23 @@
 ﻿position,team,short,played,won,drawn,lost,goals_for,goals_against,goal_difference,points,competition_zone
-1,UD Almería,ALM,5,5,0,0,13,3,10,15,Ascenso
-2,Burgos CF,BUR,6,4,1,1,10,6,4,13,
-3,RCD Mallorca,MLL,5,4,0,1,10,2,8,12,Promoción ascenso
-4,Girona FC,GIR,6,3,2,1,11,5,6,11,Promoción ascenso
-5,CE Sabadell,SAB,4,3,1,0,7,3,4,10,
-6,SD Eibar,EIB,5,3,1,1,9,6,3,10,Promoción ascenso
-7,Real Sporting,SPO,6,3,1,2,6,6,0,10,Promoción ascenso
-8,Real Valladolid CF,VLL,5,3,0,2,11,7,4,9,
-9,CD Castellón,CAS,4,2,2,0,8,1,7,8,Ascenso
-10,CD Eldense,ELD,5,2,2,1,9,6,3,8,
-11,Real Oviedo,OVI,5,2,2,1,5,2,3,8,
-12,CD Tenerife,TEN,5,2,2,1,5,3,2,8,
-13,Celta Fortuna,CEF,6,2,2,2,11,11,0,8,
-14,Granada CF,GRA,4,2,1,1,7,4,3,7,
-15,FC Andorra,AND,5,2,0,3,8,8,0,6,
-16,CD Leganés,LEG,4,2,0,2,4,5,-1,6,
-17,Córdoba CF,COR,4,2,0,2,6,8,-2,6,
-18,Cádiz CF,CAD,6,1,2,3,6,5,1,5,Descenso
-19,UD Las Palmas,LPA,5,1,2,2,5,8,-3,5,
+1,UD Almería,ALM,6,5,1,0,15,5,10,16,Ascenso
+2,Girona FC,GIR,7,4,2,1,16,6,10,14,Promoción ascenso
+3,Burgos CF,BUR,6,4,1,1,10,6,4,13,Promoción ascenso
+4,RCD Mallorca,MLL,5,4,0,1,10,2,8,12,
+5,CD Castellón,CAS,5,3,2,0,12,1,11,11,Ascenso
+6,CE Sabadell,SAB,5,3,2,0,8,4,4,11,
+7,Granada CF,GRA,5,3,1,1,9,5,4,10,Promoción ascenso
+8,SD Eibar,EIB,5,3,1,1,9,6,3,10,Promoción ascenso
+9,Real Sporting,SPO,6,3,1,2,6,6,0,10,
+10,Real Valladolid CF,VLL,5,3,0,2,11,7,4,9,
+11,Córdoba CF,COR,5,3,0,2,8,8,0,9,
+12,Cádiz CF,CAD,7,2,2,3,9,6,3,8,
+13,CD Eldense,ELD,5,2,2,1,9,6,3,8,
+14,Real Oviedo,OVI,5,2,2,1,5,2,3,8,
+15,CD Tenerife,TEN,5,2,2,1,5,3,2,8,
+16,Celta Fortuna,CEF,6,2,2,2,11,11,0,8,
+17,UD Las Palmas,LPA,6,2,2,2,6,8,-2,8,
+18,CD Leganés,LEG,5,2,1,2,5,6,-1,7,
+19,FC Andorra,AND,6,2,0,4,10,11,-1,6,Descenso
 20,AD Ceuta FC,CEU,6,1,1,4,6,10,-4,4,Descenso
-21,R. Sociedad B,RSB,5,0,1,4,5,10,-5,1,Descenso
-22,Albacete BP,ALB,4,0,0,4,3,8,-5,0,Descenso
+21,Albacete BP,ALB,5,1,0,4,5,8,-3,3,Descenso
+22,R. Sociedad B,RSB,5,0,1,4,5,10,-5,1,Descenso

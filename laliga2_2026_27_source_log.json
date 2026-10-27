@@ -1,13 +1,13 @@
 {
   "competition": "LALIGA HYPERMOTION 2026/27 only",
-  "requested_cutoff": "2026-10-23 11:12 America/Sao_Paulo",
-  "data_capture": "2026-10-23 11:12 America/Sao_Paulo",
+  "requested_cutoff": "2026-10-27 12:18 America/Sao_Paulo",
+  "data_capture": "2026-10-27 12:18 America/Sao_Paulo",
   "sources": [
     {
       "name": "LALIGA official HYPERMOTION calendar and results by jornada",
       "url_pattern": "https://www.laliga.com/laliga-hypermotion/resultados/2026-27/jornada-{1..42}",
       "fixture_count": 462,
-      "confirmed_final_scores": 110,
+      "confirmed_final_scores": 121,
       "snapshot_file": "laliga2_2026_27_matches_official.csv"
     },
     {
@@ -23,9 +23,9 @@
     {
       "name": "ESPN independent scoreboard",
       "url_pattern": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/scoreboard?dates=YYYYMMDD",
-      "scoreboard_dates_queried": 58,
-      "finished_results_checked": 110,
-      "identical_final_scores": 110,
+      "scoreboard_dates_queried": 64,
+      "finished_results_checked": 121,
+      "identical_final_scores": 121,
       "missing_or_mismatched": 0,
       "score_snapshot": "laliga2_2026_27_espn_result_crosscheck.csv",
       "table_snapshot": "espn_2026_27_standings_from_scores.csv"

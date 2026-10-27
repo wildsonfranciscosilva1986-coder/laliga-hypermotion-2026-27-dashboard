@@ -1,32 +1,32 @@
 {
   "competition": "LALIGA HYPERMOTION / Segunda División 2026/27",
-  "cutoff": "2026-10-23 11:12 America/Sao_Paulo",
+  "cutoff": "2026-10-27 12:18 America/Sao_Paulo",
   "overview_kpis": {
     "clubs": 22,
-    "finished_fixtures": 110,
+    "finished_fixtures": 121,
     "official_fixtures": 462,
-    "total_goals": 292,
-    "btts": 55,
-    "over_2_5": 54,
-    "home_wins": 49,
-    "draws": 23,
-    "away_wins": 38,
-    "average_goals_per_finished_match": 2.6545,
-    "btts_rate": 0.5,
-    "over_2_5_rate": 0.4909,
+    "total_goals": 327,
+    "btts": 62,
+    "over_2_5": 60,
+    "home_wins": 56,
+    "draws": 26,
+    "away_wins": 39,
+    "average_goals_per_finished_match": 2.7025,
+    "btts_rate": 0.5124,
+    "over_2_5_rate": 0.4959,
     "live_matches_excluded": 0
   },
-  "official_source_snapshot_retrieved": "Current LALIGA official fixture and table snapshots retrieved at 2026-10-23 11:12 America/Sao_Paulo",
+  "official_source_snapshot_retrieved": "Current LALIGA official fixture and table snapshots retrieved at 2026-10-27 12:18 America/Sao_Paulo",
   "coverage": {
     "clubs": 22,
     "matchdays": 42,
     "official_fixture_slots": 462,
     "unique_official_match_ids": 462,
     "fixture_status_counts": {
-      "finished": 110,
-      "scheduled": 352
+      "finished": 121,
+      "scheduled": 341
     },
-    "confirmed_final_scores_used": 110,
+    "confirmed_final_scores_used": 121,
     "live_matches_excluded": 0,
     "unpublished_kickoff_times": 308
   },
@@ -39,8 +39,8 @@
   },
   "independent_ESPN_crosscheck": {
     "source": "ESPN independent scoreboard API, current official final-result dates",
-    "official_final_results_checked": 110,
-    "identical_final_scores": 110,
+    "official_final_results_checked": 121,
+    "identical_final_scores": 121,
     "missing_or_different": 0,
     "independently_recomputed_ESPN_table_matches_final_only_table": 22
   },
