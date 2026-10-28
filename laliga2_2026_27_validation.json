@@ -1,6 +1,6 @@
 {
   "competition": "LALIGA HYPERMOTION / Segunda División 2026/27",
-  "cutoff": "2026-10-27 12:18 America/Sao_Paulo",
+  "cutoff": "2026-10-28 12:57 America/Sao_Paulo",
   "overview_kpis": {
     "clubs": 22,
     "finished_fixtures": 121,
@@ -16,7 +16,7 @@
     "over_2_5_rate": 0.4959,
     "live_matches_excluded": 0
   },
-  "official_source_snapshot_retrieved": "Current LALIGA official fixture and table snapshots retrieved at 2026-10-27 12:18 America/Sao_Paulo",
+  "official_source_snapshot_retrieved": "Current LALIGA official fixture and table snapshots retrieved at 2026-10-28 12:57 America/Sao_Paulo",
   "coverage": {
     "clubs": 22,
     "matchdays": 42,
@@ -28,7 +28,7 @@
     },
     "confirmed_final_scores_used": 121,
     "live_matches_excluded": 0,
-    "unpublished_kickoff_times": 308
+    "unpublished_kickoff_times": 297
   },
   "score_table_rule": "Only LALIGA status FullTime rows with both scores are used. Win=3 points, draw=1, loss=0. W-D-L, played, GF, GA, GD and points are recomputed per club; home and away records are calculated separately.",
   "official_table_reconciliation": {
