@@ -1,14 +1,14 @@
 ﻿position,team,short,played,won,drawn,lost,goals_for,goals_against,goal_difference,points,competition_zone
 1,CD Castellón,CAS,6,5,0,1,10,3,7,15,Ascenso
 2,SD Eibar,EIB,6,4,0,2,11,7,4,12,Promoción ascenso
-3,Real Oviedo,OVI,6,3,1,2,10,10,0,10,
-4,Granada CF,GRA,6,3,1,2,9,9,0,10,Promoción ascenso
-5,UD Almería,ALM,5,3,0,2,7,4,3,9,Ascenso
+3,UD Almería,ALM,6,3,1,2,7,4,3,10,Ascenso
+4,Real Oviedo,OVI,6,3,1,2,10,10,0,10,
+5,Granada CF,GRA,6,3,1,2,9,9,0,10,Promoción ascenso
 6,Real Sporting,SPO,5,3,0,2,5,7,-2,9,
-7,Girona FC,GIR,4,2,1,1,6,4,2,7,Promoción ascenso
+7,Girona FC,GIR,5,2,1,2,6,5,1,7,Promoción ascenso
 8,Burgos CF,BUR,5,2,1,2,6,6,0,7,Promoción ascenso
 9,RCD Mallorca,MLL,6,1,4,1,3,4,-1,7,
-10,R. Sociedad B,RSB,6,2,1,3,9,12,-3,7,Descenso
+10,R. Sociedad B,RSB,6,2,1,3,9,12,-3,7,
 11,CE Sabadell,SAB,6,1,3,2,3,5,-2,6,
 12,Córdoba CF,COR,6,2,0,4,9,12,-3,6,
 13,UD Las Palmas,LPA,5,2,0,3,8,11,-3,6,
@@ -18,6 +18,6 @@
 17,FC Andorra,AND,5,1,1,3,5,9,-4,4,Descenso
 18,Celta Fortuna,CEF,5,1,1,3,5,10,-5,4,
 19,Real Valladolid CF,VLL,6,0,3,3,5,9,-4,3,
-20,Cádiz CF,CAD,4,0,2,2,5,8,-3,2,
+20,Cádiz CF,CAD,4,0,2,2,5,8,-3,2,Descenso
 21,AD Ceuta FC,CEU,5,0,1,4,4,15,-11,1,Descenso
 22,Albacete BP,ALB,6,0,1,5,3,14,-11,1,Descenso

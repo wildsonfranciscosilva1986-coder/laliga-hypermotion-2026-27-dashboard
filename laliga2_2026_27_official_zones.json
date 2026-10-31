@@ -100,13 +100,13 @@
       "position": 4,
       "team": "Girona FC",
       "short": "GIR",
-      "played": 11,
+      "played": 12,
       "won": 6,
       "drawn": 3,
-      "lost": 2,
+      "lost": 3,
       "goals_for": 22,
-      "goals_against": 10,
-      "goal_difference": 12,
+      "goals_against": 11,
+      "goal_difference": 11,
       "points": 21,
       "competition_zone": "Promoción ascenso"
     },
@@ -294,6 +294,20 @@
     },
     {
       "position": 18,
+      "team": "R. Sociedad B",
+      "short": "RSB",
+      "played": 12,
+      "won": 3,
+      "drawn": 2,
+      "lost": 7,
+      "goals_for": 15,
+      "goals_against": 22,
+      "goal_difference": -7,
+      "points": 11,
+      "competition_zone": ""
+    },
+    {
+      "position": 19,
       "team": "Cádiz CF",
       "short": "CAD",
       "played": 11,
@@ -304,10 +318,10 @@
       "goals_against": 14,
       "goal_difference": 0,
       "points": 10,
-      "competition_zone": ""
+      "competition_zone": "Descenso"
     },
     {
-      "position": 19,
+      "position": 20,
       "team": "FC Andorra",
       "short": "AND",
       "played": 11,
@@ -318,20 +332,6 @@
       "goals_against": 20,
       "goal_difference": -5,
       "points": 10,
-      "competition_zone": "Descenso"
-    },
-    {
-      "position": 20,
-      "team": "R. Sociedad B",
-      "short": "RSB",
-      "played": 11,
-      "won": 2,
-      "drawn": 2,
-      "lost": 7,
-      "goals_for": 14,
-      "goals_against": 22,
-      "goal_difference": -8,
-      "points": 8,
       "competition_zone": "Descenso"
     },
     {
