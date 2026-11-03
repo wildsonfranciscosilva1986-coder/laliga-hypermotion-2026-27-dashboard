@@ -121,3 +121,13 @@
 102743,11,2026-10-25,CD Castellón,4,4,Real Sporting,0,0,STATUS_FULL_TIME,True,401883129,https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/scoreboard?dates=20261025
 102741,11,2026-10-26,FC Andorra,2,2,Burgos CF,3,3,STATUS_FULL_TIME,True,401883131,https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/scoreboard?dates=20261026
 102758,12,2026-10-31,R. Sociedad B,1,1,Girona FC,0,0,STATUS_FULL_TIME,True,401883145,https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/scoreboard?dates=20261031
+102754,12,2026-10-31,SD Eibar,1,1,UD Almería,1,1,STATUS_FULL_TIME,True,401883148,https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/scoreboard?dates=20261031
+102752,12,2026-10-31,Celta Fortuna,2,2,Córdoba CF,2,2,STATUS_FULL_TIME,True,401883307,https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/scoreboard?dates=20261031
+102750,12,2026-10-31,Albacete BP,2,2,CE Sabadell,1,1,STATUS_FULL_TIME,True,401883126,https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/scoreboard?dates=20261031
+102755,12,2026-11-01,CD Eldense,0,0,Granada CF,2,2,STATUS_FULL_TIME,True,401883124,https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/scoreboard?dates=20261101
+102753,12,2026-11-01,AD Ceuta FC,0,0,Real Sporting,2,2,STATUS_FULL_TIME,True,401883125,https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/scoreboard?dates=20261101
+102751,12,2026-11-01,Burgos CF,1,1,CD Castellón,1,1,STATUS_FULL_TIME,True,401883149,https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/scoreboard?dates=20261101
+102759,12,2026-11-02,CD Tenerife,2,2,FC Andorra,2,2,STATUS_FULL_TIME,True,401883144,https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/scoreboard?dates=20261102
+102757,12,2026-11-02,Real Oviedo,2,2,UD Las Palmas,3,3,STATUS_FULL_TIME,True,401883146,https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/scoreboard?dates=20261102
+102760,12,2026-11-02,Real Valladolid CF,4,4,CD Leganés,3,3,STATUS_FULL_TIME,True,401883123,https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/scoreboard?dates=20261102
+102756,12,2026-11-02,RCD Mallorca,2,2,Cádiz CF,1,1,STATUS_FULL_TIME,True,401883147,https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/scoreboard?dates=20261102
