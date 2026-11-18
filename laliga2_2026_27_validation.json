@@ -1,34 +1,34 @@
 {
   "competition": "LALIGA HYPERMOTION / Segunda División 2026/27",
-  "cutoff": "2026-11-04 14:08 America/Sao_Paulo",
+  "cutoff": "2026-11-18 14:57 America/Sao_Paulo",
   "overview_kpis": {
     "clubs": 22,
-    "finished_fixtures": 132,
+    "finished_fixtures": 151,
     "official_fixtures": 462,
-    "total_goals": 362,
-    "btts": 70,
-    "over_2_5": 66,
-    "home_wins": 60,
-    "draws": 30,
-    "away_wins": 42,
-    "average_goals_per_finished_match": 2.7424,
-    "btts_rate": 0.5303,
-    "over_2_5_rate": 0.5,
+    "total_goals": 410,
+    "btts": 80,
+    "over_2_5": 76,
+    "home_wins": 69,
+    "draws": 34,
+    "away_wins": 48,
+    "average_goals_per_finished_match": 2.7152,
+    "btts_rate": 0.5298,
+    "over_2_5_rate": 0.5033,
     "live_matches_excluded": 0
   },
-  "official_source_snapshot_retrieved": "Current LALIGA official fixture and table snapshots retrieved at 2026-11-04 14:08 America/Sao_Paulo",
+  "official_source_snapshot_retrieved": "Current LALIGA official fixture and table snapshots retrieved at 2026-11-18 14:57 America/Sao_Paulo",
   "coverage": {
     "clubs": 22,
     "matchdays": 42,
     "official_fixture_slots": 462,
     "unique_official_match_ids": 462,
     "fixture_status_counts": {
-      "finished": 132,
-      "scheduled": 330
+      "finished": 151,
+      "scheduled": 311
     },
-    "confirmed_final_scores_used": 132,
+    "confirmed_final_scores_used": 151,
     "live_matches_excluded": 0,
-    "unpublished_kickoff_times": 297
+    "unpublished_kickoff_times": 286
   },
   "score_table_rule": "Only LALIGA status FullTime rows with both scores are used. Win=3 points, draw=1, loss=0. W-D-L, played, GF, GA, GD and points are recomputed per club; home and away records are calculated separately.",
   "official_table_reconciliation": {
@@ -39,8 +39,8 @@
   },
   "independent_ESPN_crosscheck": {
     "source": "ESPN independent scoreboard API, current official final-result dates",
-    "official_final_results_checked": 132,
-    "identical_final_scores": 132,
+    "official_final_results_checked": 151,
+    "identical_final_scores": 151,
     "missing_or_different": 0,
     "independently_recomputed_ESPN_table_matches_final_only_table": 22
   },

@@ -1,23 +1,23 @@
 ﻿position,team,short,played,won,drawn,lost,goals_for,goals_against,goal_difference,points,competition_zone
-1,CD Castellón,CAS,12,8,3,1,23,5,18,27,Ascenso
-2,UD Almería,ALM,12,8,2,2,23,10,13,26,Ascenso
-3,SD Eibar,EIB,12,7,2,3,21,14,7,23,Promoción ascenso
-4,Granada CF,GRA,12,7,2,3,20,14,6,23,Promoción ascenso
-5,RCD Mallorca,MLL,12,6,4,2,15,7,8,22,Promoción ascenso
-6,Real Sporting,SPO,12,7,1,4,13,13,0,22,Promoción ascenso
-7,Girona FC,GIR,12,6,3,3,22,11,11,21,
-8,Burgos CF,BUR,12,6,3,3,17,13,4,21,
-9,Real Oviedo,OVI,12,5,3,4,17,15,2,18,
-10,CE Sabadell,SAB,12,4,5,3,12,11,1,17,
-11,UD Las Palmas,LPA,12,5,2,5,17,21,-4,17,
-12,Córdoba CF,COR,12,5,1,6,19,22,-3,16,
-13,Real Valladolid CF,VLL,12,4,3,5,20,19,1,15,
-14,CD Tenerife,TEN,12,3,6,3,15,17,-2,15,
-15,CD Eldense,ELD,12,4,2,6,13,17,-4,14,
-16,Celta Fortuna,CEF,12,3,4,5,18,23,-5,13,
-17,CD Leganés,LEG,12,3,3,6,10,20,-10,12,
-18,FC Andorra,AND,12,3,2,7,17,22,-5,11,
-19,R. Sociedad B,RSB,12,3,2,7,15,22,-7,11,Descenso
-20,Cádiz CF,CAD,12,2,4,6,15,16,-1,10,Descenso
-21,Albacete BP,ALB,12,2,1,9,10,23,-13,7,Descenso
-22,AD Ceuta FC,CEU,12,1,2,9,10,27,-17,5,Descenso
+1,UD Almería,ALM,14,10,2,2,26,11,15,32,Ascenso
+2,CD Castellón,CAS,13,9,3,1,24,5,19,30,Ascenso
+3,Granada CF,GRA,13,8,2,3,21,14,7,26,Promoción ascenso
+4,Girona FC,GIR,14,7,3,4,24,13,11,24,Promoción ascenso
+5,SD Eibar,EIB,13,7,3,3,22,15,7,24,Promoción ascenso
+6,Burgos CF,BUR,14,7,3,4,20,17,3,24,Promoción ascenso
+7,RCD Mallorca,MLL,13,6,5,2,18,10,8,23,
+8,Real Sporting,SPO,14,7,2,5,16,17,-1,23,
+9,Real Oviedo,OVI,14,6,3,5,20,18,2,21,
+10,Córdoba CF,COR,14,6,2,6,25,25,0,20,
+11,UD Las Palmas,LPA,14,6,2,6,19,22,-3,20,
+12,Real Valladolid CF,VLL,14,5,3,6,22,21,1,18,
+13,CD Tenerife,TEN,13,4,6,3,17,17,0,18,
+14,CE Sabadell,SAB,14,4,6,4,12,13,-1,18,
+15,CD Eldense,ELD,14,5,2,7,15,19,-4,17,
+16,CD Leganés,LEG,14,4,3,7,14,24,-10,15,
+17,Celta Fortuna,CEF,14,3,4,7,19,26,-7,13,
+18,R. Sociedad B,RSB,14,3,4,7,17,24,-7,13,
+19,Albacete BP,ALB,14,4,1,9,14,24,-10,13,Descenso
+20,Cádiz CF,CAD,14,2,5,7,17,19,-2,11,Descenso
+21,FC Andorra,AND,13,3,2,8,18,24,-6,11,Descenso
+22,AD Ceuta FC,CEU,14,1,2,11,10,32,-22,5,Descenso
